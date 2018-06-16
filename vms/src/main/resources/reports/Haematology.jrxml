@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Aizant_Haematology" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="687d3e62-3347-4e2d-a2fe-0999915cc62f">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="rdw" class="java.lang.String">
+		<fieldDescription><![CDATA[rdw]]></fieldDescription>
+	</field>
+	<field name="esr" class="java.lang.String">
+		<fieldDescription><![CDATA[esr]]></fieldDescription>
+	</field>
+	<field name="eosinophils" class="java.lang.String">
+		<fieldDescription><![CDATA[eosinophils]]></fieldDescription>
+	</field>
+	<field name="basophils" class="java.lang.String">
+		<fieldDescription><![CDATA[basophils]]></fieldDescription>
+	</field>
+	<field name="sampleType" class="java.lang.String">
+		<fieldDescription><![CDATA[sampleType]]></fieldDescription>
+	</field>
+	<field name="differentialCount" class="java.lang.String">
+		<fieldDescription><![CDATA[differentialCount]]></fieldDescription>
+	</field>
+	<field name="bloodGroup" class="java.lang.String">
+		<fieldDescription><![CDATA[bloodGroup]]></fieldDescription>
+	</field>
+	<field name="haemoglobin" class="java.lang.String">
+		<fieldDescription><![CDATA[haemoglobin]]></fieldDescription>
+	</field>
+	<field name="mch" class="java.lang.String">
+		<fieldDescription><![CDATA[mch]]></fieldDescription>
+	</field>
+	<field name="preparedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[preparedBy]]></fieldDescription>
+	</field>
+	<field name="plateletCount" class="java.lang.String">
+		<fieldDescription><![CDATA[plateletCount]]></fieldDescription>
+	</field>
+	<field name="hct" class="java.lang.String">
+		<fieldDescription><![CDATA[hct]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="labDetails" class="com.aizant.vms.model.labreport.LabDetails">
+		<fieldDescription><![CDATA[labDetails]]></fieldDescription>
+	</field>
+	<field name="preparedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[preparedOn]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="neutrophils" class="java.lang.String">
+		<fieldDescription><![CDATA[neutrophils]]></fieldDescription>
+	</field>
+	<field name="rbcCount" class="java.lang.String">
+		<fieldDescription><![CDATA[rbcCount]]></fieldDescription>
+	</field>
+	<field name="mcv" class="java.lang.String">
+		<fieldDescription><![CDATA[mcv]]></fieldDescription>
+	</field>
+	<field name="monocytes" class="java.lang.String">
+		<fieldDescription><![CDATA[monocytes]]></fieldDescription>
+	</field>
+	<field name="mchc" class="java.lang.String">
+		<fieldDescription><![CDATA[mchc]]></fieldDescription>
+	</field>
+	<field name="lymphocytes" class="java.lang.String">
+		<fieldDescription><![CDATA[lymphocytes]]></fieldDescription>
+	</field>
+	<field name="reviewedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[reviewedBy]]></fieldDescription>
+	</field>
+	<field name="mpv" class="java.lang.String">
+		<fieldDescription><![CDATA[mpv]]></fieldDescription>
+	</field>
+	<field name="authorizedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[authorizedBy]]></fieldDescription>
+	</field>
+	<field name="reviewedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[reviewedOn]]></fieldDescription>
+	</field>
+	<field name="authorizedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[authorizedOn]]></fieldDescription>
+	</field>
+	<field name="eosinophils_abs" class="java.lang.String">
+		<fieldDescription><![CDATA[eosinophils_abs]]></fieldDescription>
+	</field>
+	<field name="wbcTotal" class="java.lang.String">
+		<fieldDescription><![CDATA[wbcTotal]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="64" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="22" uuid="5ed7ca7c-7a7c-45a2-95e6-d78010bae1a9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Roboto Medium" size="16"/>
+				</textElement>
+				<text><![CDATA[Aizant Drug Research Solution Pvt. Ltd.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="22" width="555" height="15" uuid="d7e5e76c-1f66-496d-b498-c4b1d8ad1c23"/>
+				<textElement textAlignment="Center">
+					<font fontName="Roboto" size="12"/>
+				</textElement>
+				<text><![CDATA[Hyderabad]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="37" width="351" height="26" uuid="1f6c296c-0b15-4d95-86e1-7a82230699c8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto Medium" size="16"/>
+				</textElement>
+				<text><![CDATA[LABORATORY REPORT]]></text>
+			</staticText>
+			<image>
+				<reportElement x="451" y="37" width="104" height="26" uuid="7c151a4f-4498-475c-a1fd-69576dc6a256"/>
+				<imageExpression><![CDATA["src/main/resources/images/AIZlogo.png"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="0" y="63" width="555" height="1" uuid="01cc60f0-f34e-464b-b1a7-19c57ab01393"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="37" width="100" height="26" uuid="3e6e5b69-643c-4a66-a7ca-c099c569d74f"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="109" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="140" height="18" uuid="6fe31daf-555d-4f74-96df-53dd13f2a632"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto Medium" size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[LAB ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="18" width="140" height="18" uuid="e0edeaec-6738-4ce8-9dfa-b3c0565ec857"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Subject No / Reg No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="36" width="140" height="18" uuid="af81a191-b7bc-47a9-8249-2827088009fb"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="54" width="140" height="18" uuid="a711dce9-7f90-4071-b4bc-f1d83d0ffe45"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Referred By]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="72" width="140" height="18" uuid="9f43e6ba-bdb7-487b-907f-dac1c851d863"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Subject Initials]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="90" width="140" height="18" uuid="67767379-b94e-4fc2-a3a1-1dcbb16b9b14"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Sex]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="18" width="4" height="18" uuid="4d178fb7-d066-4455-8c81-7a8deffd8afd"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="311" y="0" width="119" height="18" uuid="be053320-a924-4a1f-8012-2f4e40b1aed6"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto Medium" size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[PROJECT NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="311" y="18" width="119" height="18" uuid="83914140-d00d-4ee4-8011-3e9c69b878f3"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Sample Collected at]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="311" y="36" width="119" height="18" uuid="23e94efd-51dd-4081-a4f9-ae4f70517760"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Sample Collected on]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="311" y="54" width="119" height="18" uuid="48cf8129-4dcd-44b9-8f22-84fc885e71c8"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Sample Received on]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="311" y="72" width="119" height="18" uuid="924b699c-335d-407c-bcbc-c90fe1ee18f3"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Reported on]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="0" width="4" height="18" uuid="0872f552-fcfc-4c7e-b5f0-e7b0b346744d"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="36" width="4" height="18" uuid="3133ce9d-7cb6-4890-be16-697d04db0a4b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="54" width="4" height="18" uuid="3de39959-519c-4683-9a30-c4c6b9ec0068"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="72" width="4" height="18" uuid="566d3ef7-2ad4-47b6-b75b-9c1af554267d"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="90" width="4" height="18" uuid="033ab58d-fdec-41bb-8c2f-9269883ccb57"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="0" width="4" height="18" uuid="0e305004-b7db-447b-8944-ffd87a6cd6a2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="18" width="4" height="18" uuid="d4284458-fdae-4e0b-b4b6-5820cb2e9c5a"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="36" width="4" height="18" uuid="da6b8842-ad28-4a1d-986e-df07942f0fde"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="54" width="4" height="18" uuid="4b4683c0-180b-4856-a9bf-79406e5705d5"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="72" width="4" height="18" uuid="446a4fe5-2370-4a08-a212-4736cb8928d6"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto" size="13"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="108" width="555" height="1" uuid="93c2a283-4f6d-40d3-b463-1ddd05cfeb64"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="40" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="25" uuid="211cb951-6731-45f3-b335-316775ea1c8c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto Medium" size="16"/>
+				</textElement>
+				<text><![CDATA[HAEMATOLOGY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="25" width="555" height="15" uuid="aa54c0ae-b60c-4878-8301-b42b2e3cffd7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[[Performed on CelltacES MEK-7300K & Microscopy]]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="506" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="506" uuid="c6da592c-3d6d-4ff0-9c2c-ae0139d13eb4"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="19" width="179" height="18" uuid="270f713f-fc4c-4610-aba9-da12802f91f0"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[WBC (Total)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="37" width="179" height="12" uuid="b04fdd8d-41fe-404c-a370-db0fbe5bf758"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Electrical Resistance Detection)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="50" width="179" height="18" uuid="bbdc16d3-1160-4244-ad16-109150f3b23e"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto Medium" size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Differential count]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="68" width="179" height="12" uuid="50780cbc-b8fa-412d-97db-30efcd360666"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Flow Cytometry)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="81" width="179" height="18" uuid="c5468ac1-d8ff-411a-9097-1a3386254358"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[NEUTROPHILS %]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="100" width="179" height="18" uuid="ad326326-30ce-4c10-9687-53396691475c"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[LYMPHOCYTES %]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="119" width="179" height="18" uuid="f788133a-395c-47d3-91f6-75486db0391f"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[EOSINOPHILS %]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="138" width="179" height="18" uuid="5e290617-f598-44f4-9f65-f1f4c4acc0c5"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[MONOCYTES %]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="157" width="179" height="18" uuid="33fff76b-722c-4e12-9fd5-ea16ab29b6ea"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[BASOPHILS %]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="176" width="179" height="18" uuid="ca150e85-8e72-4f1b-a980-f3ef997ec49a"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[EOSINOPHILS (ABS)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="195" width="179" height="18" uuid="6cd6773a-7d1c-438d-a00b-641546463989"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[RBC COUNT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="213" width="179" height="12" uuid="8c7f201d-aa1c-4493-8ef9-6fc2fe8e6f6a"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Electrical Resistance Detection)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="226" width="179" height="18" uuid="4558e48c-38e6-4bb3-8c44-ff1feeec5655"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[HAEMOGLOBIN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="244" width="179" height="12" uuid="353f685a-15e2-4595-8e9a-b90b587295f4"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Colorimetry)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="257" width="179" height="18" uuid="8adc07da-cd04-4c12-9b2c-bd4484fda020"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[HCT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="276" width="179" height="18" uuid="a310929b-700c-4e84-9bb2-fcb9ffa39dfa"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[MCV]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="314" width="179" height="18" uuid="7e557d1d-852e-4fa0-930a-eb4cb3a4e44b"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[MCHC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="295" width="179" height="18" uuid="ea1848f8-de09-4980-9781-91f877f46650"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[MCH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="333" width="179" height="18" uuid="8e1bef05-0432-4a34-ba2f-695c7082ea2f"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[RDW]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="351" width="179" height="12" uuid="5ca3da29-8e11-4ffe-8ce6-21d0f61ff23d"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Calculated)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="364" width="179" height="18" uuid="6c00557d-85df-4295-8d59-38a71c7f3185"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[PLATELET COUNT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="382" width="179" height="12" uuid="8cc443a1-b798-4090-b96f-f270e2e44d5b"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Electrical Resistance Detection)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="395" width="179" height="18" uuid="48c26452-099e-40f3-b911-6730b1f6aff2"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[MEAN PLAT VOLUME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="413" width="179" height="12" uuid="0ccd483c-313e-4248-94c1-418f065c8385"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Calculated)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="426" width="179" height="18" uuid="46430cdb-2642-45c1-ab03-d36f980e008d"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[ESR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="444" width="179" height="12" uuid="40105be7-a8ac-4eee-99a0-a23fc8cc1057"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Westergren)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="457" width="179" height="18" uuid="950b58c2-c728-4b07-b073-f91041c0a327"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[BLOOD GROUP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="475" width="179" height="12" uuid="5273524b-74ea-4938-b2eb-e36e2b5db02d"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Slide Agglutination)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="488" width="179" height="18" uuid="0d102ef4-7dad-498d-976c-9d9e4f364f0e"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Sample Type: Whole Blood EDTA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="180" y="19" width="179" height="15" uuid="977ec5e8-4bad-45cb-aaa0-0b61ce02cf49">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9e02a80c-1419-4d4f-a130-510ec90a0e48"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textFieldExpression><![CDATA[$F{wbcTotal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="81" width="179" height="18" uuid="c40b3bd4-6b0f-4972-9079-793ac1e6ca85">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f287ac07-3ef4-4e95-b65c-ab1970ef7f23"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{neutrophils}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="100" width="179" height="18" uuid="5d40fdb4-bae5-42a4-ba95-a9c8e5c4a1e0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4d9bc337-21e6-4c02-8645-8a6bae59721e"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lymphocytes}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="119" width="179" height="18" uuid="442aa128-664d-40fd-9fbe-30faddacb683">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e24a96bd-3ea9-4640-ba3c-b68fa370ada3"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{eosinophils}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="138" width="179" height="18" uuid="1456a8df-c9f0-423e-858a-145f065b3f77">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6cfd59d8-0fe3-45da-b85f-ec51194ffedb"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{monocytes}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="157" width="179" height="18" uuid="1b13de47-1c55-4dbe-a712-c4d3dd3a64f7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="38a7d4a8-a16b-4a44-be6d-52a5c12f675e"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{basophils}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="176" width="179" height="18" uuid="fc51cf90-bf0b-46c0-9542-bd5db2ec751a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="057de9b2-1afb-4eb0-8992-750b1e194ae3"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{eosinophils_abs}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="195" width="179" height="18" uuid="9f51e819-0c49-4a96-a88a-8ee1ccf34456">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c67a1f64-0174-4dbb-a209-df376a1fff27"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{rbcCount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="226" width="179" height="18" uuid="cd728a41-5160-4ae6-bd76-31a1e6dd41e8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4b5b2b91-bc18-49e6-b5be-c1bf3cfad74b"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{haemoglobin}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="257" width="179" height="18" uuid="a1a4a377-d187-4adc-8d5b-bca358db6d0b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="67e642f3-99b7-462e-93f3-ae1c259bb487"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{hct}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="276" width="179" height="18" uuid="d772b914-1142-4131-8dfe-d4586b18cd97">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="da310c59-5fd6-4dde-ab5a-65e254eeeda0"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{mcv}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="295" width="179" height="18" uuid="b3aef11f-3fd9-4c9e-bfb2-786ad5896c01">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8c35c8d0-2366-451f-a762-443e4934aaf5"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{mch}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="314" width="179" height="18" uuid="c911b932-e303-47df-a6f7-5e7a13e4fd21">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8b369d78-3ed0-4cf1-a9a7-f797ac477aab"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{mchc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="333" width="179" height="18" uuid="12755dd7-b6bc-4d53-b42a-247127c0b72d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4329be7a-0eb9-4f81-ab5d-f293c9778b2a"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{rdw}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="364" width="179" height="18" uuid="30129611-7cc3-4e68-9d5d-c10b4f12ca68">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="45ee85a6-2696-4a70-ad41-5263407bf9f4"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{plateletCount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="395" width="179" height="18" uuid="9325e3e9-2613-4596-9795-c28e0a2d2d62">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bfaa4413-6be9-4710-96e3-6d6945092214"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{mpv}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="426" width="179" height="18" uuid="aa35dbab-5b14-47b8-aabf-24f89fc50eed">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d5ea9639-9a5e-4deb-98f5-2ececb92b688"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{esr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="457" width="179" height="18" uuid="f538e09d-8fce-49f7-a8d1-bc9874146aab">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="170c0bc7-f9a1-484f-bbe8-3629460d1ba6"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{bloodGroup}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="488" width="179" height="18" uuid="7685fc7a-0d2c-46d4-a41f-0687671da35f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="47384fc5-aff8-429c-b4e4-7d486c279a40"/>
+				</reportElement>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{sampleType}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="360" y="19" width="195" height="15" uuid="1d8c875d-1b84-4850-ae92-17b54939a875"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[4000-10000 / μL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="81" width="195" height="18" uuid="7a4818ab-7f4e-4426-81a4-f8fb3d924670"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[40 - 80%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="100" width="195" height="18" uuid="7d6ad7fc-f7b0-4267-ad21-2e4d3ad6c5b4"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[20 - 40%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="119" width="195" height="18" uuid="7419d1b9-cffe-4cfc-bb58-9227fa33bde5"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[01 - 06%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="138" width="195" height="18" uuid="0d520bbb-1302-4c69-be9b-4ecb07920b99"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[02 - 10%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="157" width="195" height="18" uuid="e73a56ae-0ed7-4b8d-bb9c-4120bc971e5e"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[00 - 02%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="176" width="195" height="18" uuid="db9f0138-84f4-4564-aa16-58b7407a11b3"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[20 - 500 / μL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="195" width="71" height="18" uuid="a4e815a6-6b45-4421-8f2e-041df1f0e63f"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[4.5 - 5.5 x 10]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="226" width="195" height="18" uuid="40b4cad9-7163-4b9e-a712-30ff5030029f"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[13.0 - 17.0 g / dL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="257" width="195" height="18" uuid="191ae753-5dc4-47b4-9d3a-e68fa7b5cbdf"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[40.0 - 17.0 g / dL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="276" width="195" height="18" uuid="c868b11a-b75a-413c-9784-787600a9c0cb"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[83.0 - 101.0 fL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="295" width="195" height="18" uuid="2167d19a-17fb-49df-95a3-3b270f7701da"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[27.0 - 32.0 pg]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="314" width="195" height="18" uuid="447ef10d-dce8-4834-aeaf-a692b3db242f"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[31.5 - 34.5 g / dL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="333" width="195" height="18" uuid="2689c2ae-0473-4d11-beb2-64ba951fe99f"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[11 - 16%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="364" width="195" height="18" uuid="1e5c58c5-588e-4e60-8b84-7dc7b3111727"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[150000 - 410000 / μL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="395" width="195" height="18" uuid="933f5f02-6aaf-414e-82e6-b8415e796c3d"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[6.0 - 10.0 fL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="426" width="195" height="18" uuid="6a0cfbbb-9e1a-47e1-89a4-36a3b90c2e93"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[1 - 15 mm / 1 hr]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="437" y="195" width="118" height="18" uuid="0547e59c-45fa-4902-b049-de93f53bf6a1"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[/ μL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="431" y="195" width="6" height="18" uuid="6ade262b-c88b-407a-8bb1-948299205323"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="7"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="6"/>
+				</textElement>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="0" width="195" height="18" uuid="3c10b5f6-c448-4ae9-9220-c2db2d1e61bc"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto Medium" size="11"/>
+				</textElement>
+				<text><![CDATA[REFERENCE INTERVAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="0" width="179" height="18" uuid="62c77535-acc0-40c2-bdd5-33809df4c89b"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto Medium" size="11"/>
+				</textElement>
+				<text><![CDATA[OBSERVED VALUES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="179" height="18" uuid="d6fcbccd-b246-4c79-b525-9c38c1d72995"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto Medium" size="11"/>
+				</textElement>
+				<text><![CDATA[TEST DONE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="179" y="0" width="1" height="506" uuid="b64c1d43-7bfd-448e-83d1-929868c0f7e9"/>
+			</line>
+			<line>
+				<reportElement x="359" y="0" width="1" height="506" uuid="84808858-3b68-41c9-aaf0-2d18e008b9a5"/>
+			</line>
+			<line>
+				<reportElement x="0" y="18" width="555" height="1" uuid="1a1e0c36-b8c7-45b0-b891-6fa7e6c2b7d1"/>
+			</line>
+			<line>
+				<reportElement x="0" y="49" width="555" height="1" uuid="ada652cc-5066-45f4-bd58-9f9215ebb278"/>
+			</line>
+			<line>
+				<reportElement x="0" y="80" width="555" height="1" uuid="9fab13ca-7193-4df3-aa2b-27f52dc3487a"/>
+			</line>
+			<line>
+				<reportElement x="0" y="99" width="555" height="1" uuid="4eab763e-b198-44c1-9f71-60b3b86f811a"/>
+			</line>
+			<line>
+				<reportElement x="0" y="118" width="555" height="1" uuid="01f37629-b38e-422c-90b9-40469036ab9d"/>
+			</line>
+			<line>
+				<reportElement x="0" y="137" width="555" height="1" uuid="1a15c4ab-9d96-4230-8655-17ce9032a057"/>
+			</line>
+			<line>
+				<reportElement x="0" y="156" width="555" height="1" uuid="d41d16e5-d7f6-4916-8c7b-21999f281400"/>
+			</line>
+			<line>
+				<reportElement x="0" y="175" width="555" height="1" uuid="2fcdda98-5bc9-4a42-9c17-fb2a12bbc2e1"/>
+			</line>
+			<line>
+				<reportElement x="0" y="194" width="555" height="1" uuid="fd8b91d7-397a-497c-94e1-2f5475470251"/>
+			</line>
+			<line>
+				<reportElement x="0" y="225" width="555" height="1" uuid="dc6f1320-1f61-486d-b8f3-780c339b3810"/>
+			</line>
+			<line>
+				<reportElement x="0" y="256" width="555" height="1" uuid="c5dfecd3-17af-4a0c-8c83-19234af3416a"/>
+			</line>
+			<line>
+				<reportElement x="0" y="275" width="555" height="1" uuid="f6d83307-8f1e-4317-ba9d-3c2e0488bc16"/>
+			</line>
+			<line>
+				<reportElement x="0" y="294" width="555" height="1" uuid="2a9e28e2-7fe6-441a-b3aa-cc01e1518b7f"/>
+			</line>
+			<line>
+				<reportElement x="0" y="313" width="555" height="1" uuid="7619520d-efb9-4b6e-9bf9-981703e1bb39"/>
+			</line>
+			<line>
+				<reportElement x="0" y="332" width="555" height="1" uuid="a1514807-8abe-408b-bf57-3a9f8e89f413"/>
+			</line>
+			<line>
+				<reportElement x="0" y="363" width="555" height="1" uuid="d6a1471d-ce88-4128-a00c-198f7aa8685f"/>
+			</line>
+			<line>
+				<reportElement x="0" y="394" width="555" height="1" uuid="5e372f0a-e834-42ed-8ce6-ee216dc469ac"/>
+			</line>
+			<line>
+				<reportElement x="0" y="425" width="555" height="1" uuid="50edafa9-3aaa-4c91-84b3-3c6fbb1a9fdf"/>
+			</line>
+			<line>
+				<reportElement x="0" y="456" width="555" height="1" uuid="bffe2a58-0e09-416e-ab97-538e619ee507"/>
+			</line>
+			<line>
+				<reportElement x="0" y="487" width="555" height="1" uuid="51c242e3-6272-4944-9a12-f58bc76771cf"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="49" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="20" width="210" height="15" uuid="ee4486a9-af8e-4175-91eb-5cc8b83ce07a"/>
+				<box leftPadding="28"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Prepared by]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="20" width="170" height="15" uuid="d00eafd0-97ad-4eee-bdd9-dc55679f3aeb"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Reviewed by]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="20" width="175" height="15" uuid="4d0a905b-566a-466f-b1b1-62453c35d3da"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[Authorized by]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="20" uuid="43dac10c-c454-4240-aa83-2a8c9fe2c672"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10"/>
+				</textElement>
+				<text><![CDATA[*** End of the report ***]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="35" width="210" height="14" uuid="f3a71fb9-27d4-4e80-8a40-1021f43e19c6"/>
+				<box leftPadding="28"/>
+				<textFieldExpression><![CDATA[$F{preparedBy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="35" width="170" height="14" uuid="56c41a18-0734-4d13-9670-0336b1497a56"/>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{reviewedBy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="35" width="175" height="14" uuid="caf6a7f9-5670-4380-9d88-d3c3adb1aea7"/>
+				<box leftPadding="12"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{authorizedBy}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="29" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="1" width="555" height="28" uuid="bf29db90-0ea4-450a-b296-e43d1ed8ae9c"/>
+				<box leftPadding="80" rightPadding="80"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="9"/>
+				</textElement>
+				<text><![CDATA[Survey No. 172 & 173, Apparel Park Road, Dulapally Village, Rangareddy District, T.S - 500 100. India. Tel : 040 - 23792190 / 91 / 92, Fax : +91 - 40 - 23792223]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="0" width="555" height="1" uuid="446aa34f-9279-4e04-ab03-50969434ec11"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>

@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 2" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="504d3128-c421-430a-bae6-9c259fe4eecf">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="lmpComments" class="java.lang.String">
+		<fieldDescription><![CDATA[lmpComments]]></fieldDescription>
+	</field>
+	<field name="hoLeucorrhoeaDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[hoLeucorrhoeaDetails]]></fieldDescription>
+	</field>
+	<field name="lmpDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[lmpDetails]]></fieldDescription>
+	</field>
+	<field name="abortionCorrespondingAge" class="java.lang.String">
+		<fieldDescription><![CDATA[abortionCorrespondingAge]]></fieldDescription>
+	</field>
+	<field name="hoDysmenorrhoeaComments" class="java.lang.String">
+		<fieldDescription><![CDATA[hoDysmenorrhoeaComments]]></fieldDescription>
+	</field>
+	<field name="obestricGender" class="java.lang.String">
+		<fieldDescription><![CDATA[obestricGender]]></fieldDescription>
+	</field>
+	<field name="hoDysmenorrhoeaDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[hoDysmenorrhoeaDetails]]></fieldDescription>
+	</field>
+	<field name="hoLeucorrhoeaComments" class="java.lang.String">
+		<fieldDescription><![CDATA[hoLeucorrhoeaComments]]></fieldDescription>
+	</field>
+	<field name="obestricComments" class="java.lang.String">
+		<fieldDescription><![CDATA[obestricComments]]></fieldDescription>
+	</field>
+	<field name="hormonalTreatment" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[hormonalTreatment]]></fieldDescription>
+	</field>
+	<field name="lengthOfCycleDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[lengthOfCycleDetails]]></fieldDescription>
+	</field>
+	<field name="abortionHistoryMonthYear" class="java.lang.String">
+		<fieldDescription><![CDATA[abortionHistoryMonthYear]]></fieldDescription>
+	</field>
+	<field name="gynaecologicalExamComments" class="java.lang.String">
+		<fieldDescription><![CDATA[gynaecologicalExamComments]]></fieldDescription>
+	</field>
+	<field name="hoAmenorrhoeaDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[hoAmenorrhoeaDetails]]></fieldDescription>
+	</field>
+	<field name="obestricAge" class="java.lang.String">
+		<fieldDescription><![CDATA[obestricAge]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="durtionOfFlowComments" class="java.lang.String">
+		<fieldDescription><![CDATA[durtionOfFlowComments]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="breastFeedingCurrently" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[breastFeedingCurrently]]></fieldDescription>
+	</field>
+	<field name="updatedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[updatedBy]]></fieldDescription>
+	</field>
+	<field name="gynaecologicalExam" class="java.lang.String">
+		<fieldDescription><![CDATA[gynaecologicalExam]]></fieldDescription>
+	</field>
+	<field name="lengthOfCycleComments" class="java.lang.String">
+		<fieldDescription><![CDATA[lengthOfCycleComments]]></fieldDescription>
+	</field>
+	<field name="created" class="java.util.Date">
+		<fieldDescription><![CDATA[created]]></fieldDescription>
+	</field>
+	<field name="durtionOfFlowDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[durtionOfFlowDetails]]></fieldDescription>
+	</field>
+	<field name="volunteerRegNum" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="center" class="com.aizant.vms.model.StudyCenter">
+		<fieldDescription><![CDATA[center]]></fieldDescription>
+	</field>
+	<field name="obestricMethodOfDelivery" class="java.lang.String">
+		<fieldDescription><![CDATA[obestricMethodOfDelivery]]></fieldDescription>
+	</field>
+	<field name="regularComments" class="java.lang.String">
+		<fieldDescription><![CDATA[regularComments]]></fieldDescription>
+	</field>
+	<field name="reviewedBy" class="java.lang.Long">
+		<fieldDescription><![CDATA[reviewedBy]]></fieldDescription>
+	</field>
+	<field name="recordedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedBy]]></fieldDescription>
+	</field>
+	<field name="regularDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[regularDetails]]></fieldDescription>
+	</field>
+	<field name="reviewedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[reviewedOn]]></fieldDescription>
+	</field>
+	<field name="createdBy" class="java.lang.String">
+		<fieldDescription><![CDATA[createdBy]]></fieldDescription>
+	</field>
+	<field name="hormonalTreatmentComments" class="java.lang.String">
+		<fieldDescription><![CDATA[hormonalTreatmentComments]]></fieldDescription>
+	</field>
+	<field name="reviewedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[reviewedOnDate]]></fieldDescription>
+	</field>
+	<field name="recordedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedOnDate]]></fieldDescription>
+	</field>
+	<field name="hoAmenorrhoeaComments" class="java.lang.String">
+		<fieldDescription><![CDATA[hoAmenorrhoeaComments]]></fieldDescription>
+	</field>
+	<field name="recordedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[recordedOn]]></fieldDescription>
+	</field>
+	<field name="obestricHealthStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[obestricHealthStatus]]></fieldDescription>
+	</field>
+	<field name="updated" class="java.util.Date">
+		<fieldDescription><![CDATA[updated]]></fieldDescription>
+	</field>
+	<field name="formNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[formNumber]]></fieldDescription>
+	</field>
+	<field name="sopNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[sopNumber]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="127">
+			<staticText>
+				<reportElement x="0" y="30" width="539" height="30" uuid="c89f0d1f-5570-412c-9946-e9e09163c7bf"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[MEDICAL SCREENING RECORD FOR VOLUNTEERS]]></text>
+			</staticText>
+			<image>
+				<reportElement x="422" y="0" width="117" height="30" uuid="ed14d225-5ae8-45f9-9eb5-1a313963c80c"/>
+				<imageExpression><![CDATA["images/AIZlogo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement key="" x="0" y="0" width="422" height="30" uuid="8d99c8a1-7431-4309-a913-99f2b24732e6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="389" y="60" width="150" height="25" uuid="1e788265-4ede-49d0-b1a0-b46374db7c48"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reference SOP No. : " + $F{sopNumber}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="85" width="189" height="25" uuid="a3662536-4f01-44e6-9839-d5aa41fd17d3"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="85" width="189" height="25" uuid="11e30c55-7ee0-4d9c-bd12-c25c65a009bb"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reg. No. : " + $F{volunteerRegNum}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="126" width="539" height="1" uuid="820f4b2c-9e28-40a6-9fe6-56cde119f082"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="0" y="60" width="189" height="25" uuid="915c266b-24db-43e2-8195-75c3334e36e2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Form No.: " +$F{formNumber}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="110" width="539" height="16" uuid="56000204-a92e-4f4f-af6a-a74c7b7c67cf"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+		<band height="691" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="25" width="539" height="207" uuid="d33f323c-6aea-4196-a912-a1de34cf91d4"/>
+			</rectangle>
+			<line>
+				<reportElement x="181" y="25" width="1" height="207" uuid="d0a735b8-abe9-4c90-b2c3-df9fea456b79"/>
+			</line>
+			<line>
+				<reportElement x="0" y="50" width="539" height="1" uuid="562f54da-b080-43ab-b8fa-a3942f3269d1"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="25" width="181" height="25" uuid="7bfbb747-ce47-47a8-99d7-0aedcaff0556"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Menstrual History]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="539" height="25" uuid="de193a18-ee18-469d-83fa-107f02a0b663"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[f. Menstrual History :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="182" y="25" width="180" height="25" uuid="9f2703c1-0414-4e51-b310-7f45b5a811a2"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<line>
+				<reportElement x="362" y="25" width="1" height="207" uuid="c9cabebf-1de6-4937-9df3-f77fac8c866e"/>
+			</line>
+			<staticText>
+				<reportElement x="363" y="25" width="176" height="25" uuid="9c0d9f8b-d0c5-4e2f-84c4-b078ec3ce5ea"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comments]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="51" width="181" height="25" uuid="7d9aebd4-8e7c-4fc1-9f44-27990b471663"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[LMP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="77" width="181" height="25" uuid="b5e456eb-d89a-4670-874f-7c5c296efb30"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Duration of flow]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="103" width="181" height="25" uuid="a9b80a19-dcb5-4bba-88cf-08c04e25de3f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Regular/irregular]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="129" width="181" height="25" uuid="4737c110-9d9a-40c8-b81e-a7930e10d45b"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Length of cycle]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="155" width="181" height="25" uuid="e6d43eea-cf51-45e6-8a8f-abd8b9bd9402"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[H/O Dysmenorrhoea, if any]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="181" width="181" height="25" uuid="e16c5438-7401-402a-b7fb-fbc65541bafd"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[H/O Amenorrhoea, if any]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="207" width="181" height="25" uuid="bcd6fb79-e6c3-4460-a8dc-9abc08a63a54"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[H/O Leucorrhoea, if any]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="244" width="539" height="25" uuid="dd2f7cf4-2862-49f3-8f00-09c07950d6de"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[g. Obstetric History :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="269" width="539" height="56" uuid="3c10ea8d-4b02-43d8-899a-b3796015d0ae"/>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="299" width="539" height="1" uuid="8878d3e8-bb47-4533-9b3b-714e016f2b16"/>
+			</line>
+			<line>
+				<reportElement x="44" y="269" width="1" height="56" uuid="9dfa38b4-2c10-4716-91eb-d934c68278f2"/>
+			</line>
+			<line>
+				<reportElement x="93" y="269" width="1" height="56" uuid="2dfab5fb-503f-43fa-856a-e7f63f3140bf"/>
+			</line>
+			<line>
+				<reportElement x="231" y="269" width="1" height="56" uuid="d4958a0f-cf20-4920-abce-73313c327793"/>
+			</line>
+			<line>
+				<reportElement x="293" y="269" width="1" height="56" uuid="f5198402-de9e-4874-8c83-3b7a1c8c411f"/>
+			</line>
+			<line>
+				<reportElement x="413" y="269" width="1" height="56" uuid="ebc108d3-2d76-429b-b2b5-501ef344cf58"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="269" width="44" height="30" uuid="2175ef48-773f-45b4-a624-a65fe172f24f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[S.No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="269" width="48" height="30" uuid="9d1805a3-3810-47e9-abae-0d4d48872a9f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="94" y="269" width="137" height="30" uuid="2886a51e-41c9-4570-8baa-59f06cac214f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Method of delivery]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="269" width="61" height="30" uuid="3c5879ff-8403-4cf6-8c70-0ecf2f90ee6e"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Male/
+Female]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="294" y="269" width="119" height="30" uuid="51b5a595-e0d3-4e85-9295-6d12b5ad442d"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Present health status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="414" y="269" width="125" height="30" uuid="6bf1e9c8-ba8d-4c07-9a88-f78be9fb3a8d"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Comments]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="337" width="539" height="25" uuid="53d8030a-08d8-41ff-aa37-454e5f3c1809"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[h. Abortion(s)/MTP History if any, details :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="362" width="539" height="51" uuid="ef73e311-fa09-4aba-9685-172b73827e5e"/>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="387" width="539" height="1" uuid="6660b7bf-79db-4abf-96a6-a60ab7256fd3"/>
+			</line>
+			<line>
+				<reportElement x="44" y="362" width="1" height="51" uuid="94ebffb1-8f21-4f6a-a7ec-3f344a69d950"/>
+			</line>
+			<line>
+				<reportElement x="189" y="362" width="1" height="51" uuid="a1b020fd-444a-4fd3-841f-652b2d673dd9"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="362" width="44" height="25" uuid="e846ec22-46f6-475f-8800-1cd639f65f08"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[S.No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="362" width="144" height="25" uuid="a2253c12-124f-4a18-9c76-f413ae7cbd51"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Month/ year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="362" width="349" height="25" uuid="6b937565-99f3-438c-9fd1-4121f60be1ed"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Abortion/MTP with corresponding gestational age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="425" width="182" height="25" uuid="2c1d6bdc-350f-48ae-bc09-81f6af6639ef"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[i. Breast feeding currently :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="379" y="425" width="160" height="25" uuid="3f67f5d3-149e-4c20-8abf-980805d9e4ca"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="462" width="292" height="25" uuid="0c1a2caa-cd34-4ca2-bfde-f25519ba826c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[j. History of any hormonal or other treatment(s)
+   ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="379" y="462" width="160" height="25" uuid="837ac6ca-ebdc-4b0e-8f3b-862cbb4c5a67"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="487" width="539" height="25" uuid="c7234fc6-2f37-4a59-bef3-660d85db76fb"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[If yes, comments:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="549" width="200" height="25" uuid="aaf56214-7911-480e-9391-b72740cf428c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[k. Gynaecological exaamination]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="379" y="549" width="160" height="25" uuid="2b2d159a-ee62-45aa-a107-135a22d57d62"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="574" width="539" height="30" uuid="d7c57424-68c1-4206-8914-e5c691fcb24c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[(Applicable only for protocol specific screening requirement)
+Comments (If any)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="512" width="539" height="25" uuid="9326b9cd-3ecf-4f3f-b0d8-3e5c975f390c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="616" width="539" height="25" uuid="e7247599-3c19-4c39-95d8-65a255dd6aff"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="666" width="361" height="25" uuid="61c1ff41-e45e-41b1-8882-40e132fe6a73"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="666" width="170" height="25" uuid="14cb386a-4177-4449-8713-fa75e5c0f463"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Recorded by (Sign & date)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="170" y="666" width="1" height="25" uuid="af1034ba-4b2b-46b6-887d-4ee92593aa59"/>
+			</line>
+			<line>
+				<reportElement x="0" y="76" width="539" height="1" uuid="659a8482-243f-4e42-847f-8a28c96f4a8b"/>
+			</line>
+			<line>
+				<reportElement x="0" y="102" width="539" height="1" uuid="528784ca-bbde-4d44-81c7-d2474a6f558a"/>
+			</line>
+			<line>
+				<reportElement x="0" y="128" width="539" height="1" uuid="efd9786e-55a0-4ef3-b8fb-c2d3bba6da32"/>
+			</line>
+			<line>
+				<reportElement x="0" y="154" width="539" height="1" uuid="1c300825-7f68-4a9d-97ac-0bd093fcf215"/>
+			</line>
+			<line>
+				<reportElement x="0" y="180" width="539" height="1" uuid="f50d9465-d043-4bb6-b668-4667fd408197"/>
+			</line>
+			<line>
+				<reportElement x="0" y="206" width="539" height="1" uuid="79c81f15-0bc2-41f8-8bd8-180fd49019bb"/>
+			</line>
+			<textField>
+				<reportElement x="182" y="51" width="180" height="25" uuid="e2714bf4-f4a4-4176-a4d7-3eba5625045e"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{lmpDetails}==null)? "NA":$F{lmpDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="363" y="51" width="176" height="25" uuid="3f604e59-a288-4be5-88cc-ea9bc5ac2290"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{lmpComments}==null)? "NA":$F{lmpComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="363" y="77" width="176" height="25" uuid="55938087-85c8-4f62-9876-ea74af751305"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{durtionOfFlowComments}==null)? "NA":$F{durtionOfFlowComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="77" width="180" height="25" uuid="3390765c-dea4-42ac-a8cd-98b2609b2693"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{durtionOfFlowDetails}==null)? "NA":$F{durtionOfFlowDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="363" y="103" width="176" height="25" uuid="5bc3eccc-348a-444d-ba85-2c0f387d40ef"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{regularComments}==null)? "NA":$F{regularComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="103" width="180" height="25" uuid="cb008dad-6e92-491d-8d27-febaa49adab8"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{regularDetails}==null)? "NA":$F{regularDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="129" width="180" height="25" uuid="5821207c-36df-4c0e-8ca1-e747dec581a9"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{lengthOfCycleDetails}==null)? "NA":$F{lengthOfCycleDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="363" y="129" width="176" height="25" uuid="36a15557-3fd8-421d-850a-ba2b0e4e848f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{lengthOfCycleComments}==null)? "NA":$F{lengthOfCycleComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="155" width="180" height="25" uuid="94b730c5-f6ae-4d59-9dc9-d1a328bc2edb"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{hoDysmenorrhoeaDetails}==null)? "NA":$F{hoDysmenorrhoeaDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="363" y="207" width="176" height="25" uuid="685a1260-54b9-4e21-99dd-d848c6cd8213"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{hoLeucorrhoeaComments}==null)? "NA":$F{hoLeucorrhoeaComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="363" y="155" width="176" height="25" uuid="65ccb967-6a17-4dea-a879-645ce563a547"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{hoDysmenorrhoeaComments}==null)? "NA":$F{hoDysmenorrhoeaComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="181" width="180" height="25" uuid="fa454f62-20dd-4d31-8e00-87787ade8bca"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{hoAmenorrhoeaDetails}==null)? "NA":$F{hoAmenorrhoeaDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="363" y="181" width="176" height="25" uuid="bc5928f3-50b4-43b9-b7a3-75d648fdae31"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{hoAmenorrhoeaComments}==null)? "NA":$F{hoAmenorrhoeaComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="207" width="180" height="25" uuid="425f5613-2b02-4138-9ebc-d27293675415"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{hoLeucorrhoeaDetails}==null)? "NA":$F{hoLeucorrhoeaDetails}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="300" width="44" height="25" uuid="11400e56-843d-4917-9f24-681705cbeb42"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="414" y="300" width="125" height="25" uuid="48936051-c250-42dd-8099-6bda3d54ab1b"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{obestricComments}==null)? "NA":$F{obestricComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="300" width="61" height="25" uuid="832e998b-7769-418c-bdf2-20e013c0432c"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{obestricGender}==null)? "NA":$F{obestricGender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="45" y="300" width="48" height="25" uuid="ab39fa68-8624-4c37-b4a3-d5aa9e967539"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{obestricAge}==null)? "NA":$F{obestricAge}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="94" y="300" width="137" height="25" uuid="3a38c0d3-d110-4a66-96db-1b5f86bf79bf"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{obestricMethodOfDelivery}==null)? "NA":$F{obestricMethodOfDelivery}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="294" y="300" width="119" height="25" uuid="8eab27d8-19a1-4b92-80bc-92c1fc2a93e5"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{obestricHealthStatus}==null)? "NA":$F{obestricHealthStatus}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="388" width="44" height="25" uuid="6e09114b-28d5-4d7b-8f62-7869fa6b215a"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="45" y="388" width="144" height="25" uuid="b8dc0cbe-ede5-48b4-bd59-8add5809b67a"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{abortionHistoryMonthYear}==null)?"NA":$F{abortionHistoryMonthYear}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="388" width="349" height="25" uuid="c91a1519-e4b1-42ae-a86a-a212647a2aaa"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{abortionCorrespondingAge}==null)?"NA":$F{abortionCorrespondingAge}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="379" y="425" width="160" height="25" uuid="3df1f768-6ff9-4929-905d-8acb089a6ada"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{breastFeedingCurrently}==null)? "NA":$F{breastFeedingCurrently}? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="512" width="539" height="25" uuid="03fea138-6faf-4e16-ade8-f31385dda136"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{hormonalTreatmentComments}==null)? "NA":$F{hormonalTreatmentComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="379" y="462" width="160" height="25" uuid="cfcf1a4c-274c-4eff-9f01-5ca7c456a37a"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{hormonalTreatment}==null)? "NA":$F{hormonalTreatment}? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="616" width="539" height="25" uuid="5bd2a96a-7a66-442c-bee3-ea609fbdea61"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{gynaecologicalExamComments}==null)? "NA":$F{gynaecologicalExamComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="379" y="549" width="160" height="25" uuid="644c35a4-5da0-4ae6-8fe0-79e50e7893e4"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{gynaecologicalExam}==null)? "NA":$F{gynaecologicalExam}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="171" y="666" width="190" height="25" uuid="f6af5421-b39e-4186-a41a-b7de963c2d45"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{recordedBy}==null)? "NA":$F{recordedBy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="232" width="539" height="12" uuid="e7cc36e1-756a-4ba6-bd1d-6614b16b0a08"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="325" width="539" height="12" uuid="0369fc0b-9145-411f-9881-481e8fad892f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="413" width="539" height="12" uuid="e0d628e6-bb32-4dfb-b8bc-32ebbbdafbf0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="450" width="539" height="12" uuid="0eabddb9-6b2c-4f37-bcda-5c2a2b01f5f3"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="537" width="539" height="12" uuid="9e1b0858-ba92-4c59-8de5-3c5dbc639a49"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="604" width="539" height="12" uuid="60437827-a102-4f7f-9abd-87ac765cfb28"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="641" width="539" height="25" uuid="0f7903c9-f81d-4dc5-aa74-eec55e94d4b2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

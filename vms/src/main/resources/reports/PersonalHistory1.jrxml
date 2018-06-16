@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 2" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="504d3128-c421-430a-bae6-9c259fe4eecf">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="maritalStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[maritalStatus]]></fieldDescription>
+	</field>
+	<field name="volunteerRegNum" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="childrenCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[childrenCount]]></fieldDescription>
+	</field>
+	<field name="smokerDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[smokerDetails]]></fieldDescription>
+	</field>
+	<field name="dateOfStopping" class="java.lang.String">
+		<fieldDescription><![CDATA[dateOfStopping]]></fieldDescription>
+	</field>
+	<field name="noOfCigarPerDay" class="java.lang.Double">
+		<fieldDescription><![CDATA[noOfCigarPerDay]]></fieldDescription>
+	</field>
+	<field name="allergies" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[allergies]]></fieldDescription>
+	</field>
+	<field name="dateOfLastConsumption" class="java.lang.String">
+		<fieldDescription><![CDATA[dateOfLastConsumption]]></fieldDescription>
+	</field>
+	<field name="noOfUnitsPerDay" class="java.lang.Integer">
+		<fieldDescription><![CDATA[noOfUnitsPerDay]]></fieldDescription>
+	</field>
+	<field name="tobaccoStoppedDate" class="java.lang.String">
+		<fieldDescription><![CDATA[tobaccoStoppedDate]]></fieldDescription>
+	</field>
+	<field name="drugAbuserDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[drugAbuserDetails]]></fieldDescription>
+	</field>
+	<field name="diffFacedDuringDrugAdmin" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[diffFacedDuringDrugAdmin]]></fieldDescription>
+	</field>
+	<field name="smokeStoppedDuration" class="java.lang.String">
+		<fieldDescription><![CDATA[smokeStoppedDuration]]></fieldDescription>
+	</field>
+	<field name="typeOfDrink" class="java.lang.String">
+		<fieldDescription><![CDATA[typeOfDrink]]></fieldDescription>
+	</field>
+	<field name="diffFacedDuringDrugAdminDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[diffFacedDuringDrugAdminDetails]]></fieldDescription>
+	</field>
+	<field name="alcoholConsumerDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[alcoholConsumerDetails]]></fieldDescription>
+	</field>
+	<field name="chewerDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[chewerDetails]]></fieldDescription>
+	</field>
+	<field name="tobaccoType" class="java.lang.String">
+		<fieldDescription><![CDATA[tobaccoType]]></fieldDescription>
+	</field>
+	<field name="allergyDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[allergyDetails]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="childrenCount_1" class="java.lang.Integer">
+		<fieldDescription><![CDATA[childrenCount]]></fieldDescription>
+	</field>
+	<field name="drugDuration" class="java.lang.String">
+		<fieldDescription><![CDATA[drugDuration]]></fieldDescription>
+	</field>
+	<field name="allergyDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[allergyDate]]></fieldDescription>
+	</field>
+	<field name="updatedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[updatedBy]]></fieldDescription>
+	</field>
+	<field name="created" class="java.util.Date">
+		<fieldDescription><![CDATA[created]]></fieldDescription>
+	</field>
+	<field name="volunteerRegNum_1" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="appetiteDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[appetiteDetails]]></fieldDescription>
+	</field>
+	<field name="center" class="com.aizant.vms.model.StudyCenter">
+		<fieldDescription><![CDATA[center]]></fieldDescription>
+	</field>
+	<field name="substaanceOfAbuse" class="java.lang.String">
+		<fieldDescription><![CDATA[substaanceOfAbuse]]></fieldDescription>
+	</field>
+	<field name="allergyType" class="java.lang.String">
+		<fieldDescription><![CDATA[allergyType]]></fieldDescription>
+	</field>
+	<field name="onSpecialDiet" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[onSpecialDiet]]></fieldDescription>
+	</field>
+	<field name="reviewedBy" class="java.lang.Long">
+		<fieldDescription><![CDATA[reviewedBy]]></fieldDescription>
+	</field>
+	<field name="smokerDetails_1" class="java.lang.String">
+		<fieldDescription><![CDATA[smokerDetails]]></fieldDescription>
+	</field>
+	<field name="studySpecificAllergy" class="java.lang.String">
+		<fieldDescription><![CDATA[studySpecificAllergy]]></fieldDescription>
+	</field>
+	<field name="recordedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedBy]]></fieldDescription>
+	</field>
+	<field name="reviewedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[reviewedOn]]></fieldDescription>
+	</field>
+	<field name="specailDietDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[specailDietDetails]]></fieldDescription>
+	</field>
+	<field name="alcoholConsumerType" class="java.lang.String">
+		<fieldDescription><![CDATA[alcoholConsumerType]]></fieldDescription>
+	</field>
+	<field name="allergySymtoms" class="java.lang.String">
+		<fieldDescription><![CDATA[allergySymtoms]]></fieldDescription>
+	</field>
+	<field name="createdBy" class="java.lang.String">
+		<fieldDescription><![CDATA[createdBy]]></fieldDescription>
+	</field>
+	<field name="dateOfStopping_1" class="java.lang.String">
+		<fieldDescription><![CDATA[dateOfStopping]]></fieldDescription>
+	</field>
+	<field name="noOfCigarPerDay_1" class="java.lang.Double">
+		<fieldDescription><![CDATA[noOfCigarPerDay]]></fieldDescription>
+	</field>
+	<field name="reviewedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[reviewedOnDate]]></fieldDescription>
+	</field>
+	<field name="recordedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedOnDate]]></fieldDescription>
+	</field>
+	<field name="tobaccoStoppedDuration" class="java.lang.String">
+		<fieldDescription><![CDATA[tobaccoStoppedDuration]]></fieldDescription>
+	</field>
+	<field name="appetite" class="java.lang.String">
+		<fieldDescription><![CDATA[appetite]]></fieldDescription>
+	</field>
+	<field name="recordedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[recordedOn]]></fieldDescription>
+	</field>
+	<field name="drugStoppedDate" class="java.lang.String">
+		<fieldDescription><![CDATA[drugStoppedDate]]></fieldDescription>
+	</field>
+	<field name="updated" class="java.util.Date">
+		<fieldDescription><![CDATA[updated]]></fieldDescription>
+	</field>
+	<field name="maritalStatus_1" class="java.lang.String">
+		<fieldDescription><![CDATA[maritalStatus]]></fieldDescription>
+	</field>
+	<field name="allergicToDrug" class="java.lang.String">
+		<fieldDescription><![CDATA[allergicToDrug]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="66" splitType="Stretch">
+			<image>
+				<reportElement x="422" y="4" width="114" height="30" uuid="11e27890-15c6-4496-8299-70128d0c3f78"/>
+				<imageExpression><![CDATA["images/AIZlogo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="44" width="539" height="20" uuid="38101088-5cd4-4802-99df-42c164a9138a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[MEDICAL SCREENING RECORD FOR VOLUNTEERS]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="74" splitType="Stretch">
+			<staticText>
+				<reportElement x="8" y="9" width="92" height="12" uuid="006bb3d5-566e-4287-bea4-c83d91d60671"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Form No.: CPF065/04]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="9" width="120" height="12" uuid="61e398f9-f9e4-403c-bec8-e18dd06b7e00"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Reference SOP No. : CP002]]></text>
+			</staticText>
+			<line>
+				<reportElement x="8" y="64" width="529" height="1" uuid="8d7dab8d-a899-4fd4-a744-1c5dca196ab0"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="8" y="29" width="25" height="14" uuid="2fa55560-3962-4553-b6b0-502a32fcd426"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reg.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="29" width="25" height="14" uuid="ac0c324b-81e4-4230-a9f5-407eb4d97c6d"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="59" y="29" width="100" height="14" uuid="fd9c824f-5ec3-464a-8d01-fa986ba0a0cf"/>
+				<textFieldExpression><![CDATA[$F{volunteerRegNum}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="644" splitType="Stretch">
+			<rectangle>
+				<reportElement x="8" y="83" width="528" height="84" uuid="d33f323c-6aea-4196-a912-a1de34cf91d4"/>
+			</rectangle>
+			<line>
+				<reportElement x="171" y="83" width="1" height="83" uuid="d0a735b8-abe9-4c90-b2c3-df9fea456b79"/>
+			</line>
+			<line>
+				<reportElement x="8" y="107" width="528" height="1" uuid="cddd7bf4-28bd-453f-8940-ff6773bb12d4"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="16" y="88" width="45" height="14" uuid="7bfbb747-ce47-47a8-99d7-0aedcaff0556"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="111" width="136" height="16" uuid="1eb8bc96-fccf-4210-8c7d-71fae10d41c7"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[No. of cigarettes per day]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="131" width="74" height="16" uuid="a62a28aa-ebb2-4d47-abef-e692e1c9bbf0"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Duration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="151" width="120" height="16" uuid="5385a819-5fe4-4aa8-bc4f-986d139cbf4c"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of stopping]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="4" width="142" height="16" uuid="de193a18-ee18-469d-83fa-107f02a0b663"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4. PERSONAL HISTORY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="27" width="112" height="16" uuid="650d5e47-6ee2-44d4-a5fa-73d4b2694fd6"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[a. Marital Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="287" y="27" width="112" height="16" uuid="8fef7f74-7a64-4a61-a59f-6df8f95da91e"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[b. Children (if any)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="57" width="112" height="16" uuid="861d055f-1ba5-4c49-b605-4c62ecead06f"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[c. Smoking History]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="126" y="57" width="10" height="16" uuid="d8575a1f-b0d9-4b99-a0e2-b3e9be7735cc"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="126" y="27" width="10" height="16" uuid="67a95ba6-9168-41a4-8d93-88009bf5cf9f"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="406" y="27" width="10" height="16" uuid="53717db5-e485-49da-b0ad-9bed14e1a13f"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="88" width="152" height="14" uuid="c14d955a-9594-45bc-9f32-29a0db7fa02f"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Current smoker / Ex-smoker]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="9" y="207" width="528" height="97" uuid="672f1f9a-ed45-4585-bb09-a90fd0a6d9c2"/>
+			</rectangle>
+			<line>
+				<reportElement x="171" y="207" width="1" height="97" uuid="232eeec7-e5b5-481c-a887-84c8e53c5dc0"/>
+			</line>
+			<line>
+				<reportElement x="9" y="231" width="528" height="1" uuid="2a8712b7-10ee-481b-85a6-0abf9006c020"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="17" y="212" width="45" height="14" uuid="239e362e-e43d-4725-893c-a83fe48a6f44"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="236" width="120" height="16" uuid="7aeea886-cb07-49c8-838c-eac9e773502b"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="258" width="109" height="22" uuid="4c9dcb31-7e95-4f56-b152-233b5fd4eb76"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Duration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="284" width="120" height="16" uuid="3cddbe74-6f38-4eea-923b-5aaab7e51a2c"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of stopping]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="174" width="166" height="16" uuid="21694198-46d2-44f4-91ae-855e3a340da0"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[d. History of Tobacco Chewing :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="422" y="176" width="112" height="21" uuid="1f167605-df2b-496c-b648-55aa7e279cda"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="276" y="212" width="152" height="14" uuid="bc64d0d8-20b7-4d41-a628-793956603acc"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Current chewer / Ex-chewer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="189" width="166" height="16" uuid="f9462e09-3621-4143-8eda-0b66a0fdc041"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If Yes, Please specify:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="9" y="344" width="528" height="121" uuid="0f936173-76e2-4bde-bd1b-40a303775267"/>
+			</rectangle>
+			<line>
+				<reportElement x="171" y="344" width="1" height="121" uuid="46518b30-3556-495f-8ce9-0faad73104b1"/>
+			</line>
+			<line>
+				<reportElement x="9" y="368" width="528" height="1" uuid="f1edd4e7-c218-48e1-9825-6b22f9203d8a"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="17" y="349" width="45" height="14" uuid="a390bf12-3302-4a68-a344-809688a449d0"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="373" width="120" height="16" uuid="52f02dd8-0d08-4192-a8d0-9b257326967b"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Regular / Occasional]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="393" width="119" height="31" uuid="a9767367-4b99-40b2-af8c-0709ecc54473"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[No. of units per day
+(1unit=60mL)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="429" width="120" height="16" uuid="b277d87a-503f-4801-8a5e-cfeaaee93b87"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Type of Drink]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="311" width="192" height="16" uuid="28afaeff-301c-434d-b791-89ad1e0bc5dc"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[e. History of Alcohol Consumption :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="422" y="313" width="112" height="21" uuid="6f88b3b0-1b36-43bd-9350-dd53e0bc87f3"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="232" y="349" width="244" height="14" uuid="1a54f6c6-3814-4e6d-bb91-0e2ec816f88e"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Current Consuming / Previously Consumed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="326" width="166" height="16" uuid="8557cc55-3430-4d2a-8ba6-113b9bcf6fb3"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If Yes, Please specify:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="450" width="143" height="16" uuid="f24dcd41-4fa5-42a7-b192-dd2e451f3515"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of last Consumption]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="9" y="543" width="528" height="85" uuid="eede06e0-8869-4a1d-8070-6cd9560bbf5e"/>
+			</rectangle>
+			<line>
+				<reportElement x="172" y="543" width="1" height="85" uuid="19909fbe-1b80-49d7-99ae-66b9eafb0735"/>
+			</line>
+			<line>
+				<reportElement x="9" y="567" width="528" height="1" uuid="3bed18f8-f94a-43a3-9023-cc88b4650332"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="17" y="548" width="45" height="14" uuid="bca4889c-f03e-4147-a242-2e6a2e07338e"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="572" width="120" height="16" uuid="8f9bcd34-bc8b-40eb-bd22-04f01b677e37"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Substance of Abuse]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="592" width="119" height="15" uuid="b6669242-5c2a-466c-8d4c-b0f420e33b47"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Duration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="612" width="120" height="16" uuid="2dbbfb5f-af3f-4c07-a2ce-709b1a172229"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of stopping]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="472" width="192" height="16" uuid="8c0dc1a7-bf61-4e5a-9f55-16281f44b946"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[f. History of Drug Abuse :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="422" y="474" width="112" height="21" uuid="9cba12cf-0267-43bb-b6b6-889483163b51"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="232" y="548" width="244" height="14" uuid="3188acb2-c21b-42db-96ab-12bfd97d1feb"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Current Consuming / Previously Consumed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="525" width="166" height="16" uuid="388735ee-eb7d-4530-872e-ebcdbe693c09"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If Yes, Please specify:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="495" width="514" height="30" uuid="99533072-bcd0-42fd-86f8-57305d147660"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[[Cannabinoids (Marijuana/Tetra Hydro Cannabinols), Cocaine, Opiates/Morphine, Amphetamine, Barbiturates and Benzodiazepines etc]]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="637" width="539" height="1" uuid="8a6e00e3-c0a9-42d2-be62-40a3f8de3e1d"/>
+			</break>
+			<textField>
+				<reportElement x="150" y="30" width="100" height="14" uuid="e33cdecd-f105-48ec-8e6f-9921f8a2e45c"/>
+				<textFieldExpression><![CDATA[$F{maritalStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="425" y="30" width="100" height="18" uuid="a66f8edd-fc73-437c-bc9b-9a55d34e5f0a"/>
+				<textFieldExpression><![CDATA[$F{childrenCount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="58" width="100" height="16" uuid="984b5748-63dc-4da0-917e-73e514f63939"/>
+				<textFieldExpression><![CDATA[$F{smokerDetails}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="8" y="129" width="528" height="2" uuid="2b2b7d8a-f20d-4bab-ba8e-fd337cf43175"/>
+			</line>
+			<line>
+				<reportElement x="9" y="148" width="528" height="2" uuid="a01f8d22-477f-4169-b10b-03bf90ea028a"/>
+			</line>
+			<textField>
+				<reportElement x="181" y="110" width="128" height="16" uuid="b7c44f8f-9495-4e89-a9b5-8b8638e9f862"/>
+				<textFieldExpression><![CDATA[$F{noOfCigarPerDay}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="182" y="284" width="162" height="16" uuid="84876c13-9f9e-448c-94a9-7a4c90468fec"/>
+				<textFieldExpression><![CDATA[$F{tobaccoStoppedDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="235" width="100" height="18" uuid="c514a6b3-0fec-48f8-bc53-97df7b77caf6"/>
+				<textFieldExpression><![CDATA[$F{tobaccoType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="131" width="158" height="18" uuid="8d2672da-157e-437b-90bc-2edb030bc255"/>
+				<textFieldExpression><![CDATA[$F{smokeStoppedDuration}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="426" y="179" width="104" height="14" uuid="bc179102-dfb4-442a-920c-4f88b6bd9665"/>
+				<textFieldExpression><![CDATA[$F{chewerDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="258" width="148" height="22" uuid="1f964cee-7c26-4e72-9663-d1a05b10c31c"/>
+				<textFieldExpression><![CDATA[$F{tobaccoStoppedDuration}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="150" width="100" height="16" uuid="0c74ccab-5e38-4795-9929-da053f5cd7a5"/>
+				<textFieldExpression><![CDATA[$F{dateOfStopping}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="9" y="254" width="528" height="2" uuid="5cbd7fc0-1b93-41d0-adcf-5022ede4695f"/>
+			</line>
+			<line>
+				<reportElement x="9" y="280" width="528" height="2" uuid="62cbc349-1923-4dda-8694-80e43a80ab6a"/>
+			</line>
+			<line>
+				<reportElement x="8" y="389" width="528" height="2" uuid="bd2525a2-06d4-4d8b-928f-3ca9095aa95c"/>
+			</line>
+			<line>
+				<reportElement x="9" y="427" width="528" height="2" uuid="20df3c51-25e6-4c99-bef5-b9c6a9dc999a"/>
+			</line>
+			<line>
+				<reportElement x="9" y="448" width="528" height="2" uuid="2cf7c2da-c580-4317-ae06-1b986a7e7ec5"/>
+			</line>
+			<line>
+				<reportElement x="9" y="588" width="528" height="2" uuid="86de55f2-a635-4ffa-9315-9829bc1f6472"/>
+			</line>
+			<line>
+				<reportElement x="9" y="610" width="528" height="2" uuid="dcc74156-c78d-497d-8e66-89fef51246ec"/>
+			</line>
+			<textField>
+				<reportElement x="425" y="316" width="106" height="14" uuid="7419472a-4dc4-49a3-896a-514efb818639"/>
+				<textFieldExpression><![CDATA[$F{alcoholConsumerDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="369" width="128" height="20" uuid="498f6fe2-2ff6-4319-9e4a-a28bfb1a1a71"/>
+				<textFieldExpression><![CDATA[$F{alcoholConsumerType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="401" width="100" height="18" uuid="c1682d51-41f0-4b39-980d-58fe4ba02bd3"/>
+				<textFieldExpression><![CDATA[$F{noOfUnitsPerDay}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="430" width="100" height="16" uuid="96cea481-bca2-4be1-96fb-0bb67242cc74"/>
+				<textFieldExpression><![CDATA[$F{typeOfDrink}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="448" width="138" height="18" uuid="2f25e847-1e72-49a4-8500-9d5b2d763112"/>
+				<textFieldExpression><![CDATA[$F{dateOfLastConsumption}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="425" y="478" width="106" height="14" uuid="6bb27999-6816-4944-8bd9-472c4f15a20f"/>
+				<textFieldExpression><![CDATA[$F{drugAbuserDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="568" width="114" height="20" uuid="8e47db7a-d100-4278-836f-bdaeacfca6b1"/>
+				<textFieldExpression><![CDATA[$F{substaanceOfAbuse}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="590" width="102" height="18" uuid="4267749f-b83d-44cc-b902-5c9f2c9622c2"/>
+				<textFieldExpression><![CDATA[$F{drugDuration}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="610" width="124" height="18" uuid="37daac41-8b1d-4718-b9de-faf14dd92cbd"/>
+				<textFieldExpression><![CDATA[$F{drugStoppedDate}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="537">
+			<rectangle>
+				<reportElement x="5" y="84" width="528" height="48" uuid="0b281966-9399-4837-83a8-0483936bd778"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="4" y="40" width="192" height="16" uuid="4c78d25c-2236-4f0b-bc26-e55b538321a8"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[g. Appetite :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="426" y="46" width="107" height="22" uuid="c1a96cd9-6579-4f36-aa67-1965b34822b6"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="15" y="65" width="166" height="16" uuid="d125c011-480e-4f51-bab6-9545959711ac"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If abnormal specify details:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="5" y="190" width="528" height="48" uuid="79631331-cbda-44c1-a4b9-b3eec011678d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="4" y="146" width="192" height="16" uuid="dc3f801a-5960-4aa4-8e46-6fb9b14eb331"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[h. Any special diet being taken :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="426" y="152" width="107" height="22" uuid="ae8873b6-ee13-4d4f-9872-b5cdc72d1414"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="15" y="171" width="166" height="16" uuid="777a0a71-29fd-4806-8554-6a4f2aba666f"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, specify details:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="256" width="192" height="16" uuid="3108d81f-eebe-42b7-a733-b696cf21fb56"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[i. History of allergies :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="425" y="262" width="107" height="22" uuid="9c613f19-cd97-487a-877a-5208b479be98"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="292" width="200" height="18" uuid="5da2bc30-38e0-4753-95fb-a878567c1390"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, please specify the type of allergy,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="335" width="276" height="29" uuid="eff185e6-5687-4b20-ae67-6db62c5ea4ce"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, in case of study specific screening, the volunteer
+allergic to]]></text>
+			</staticText>
+			<line>
+				<reportElement x="60" y="364" width="159" height="1" uuid="2042766d-13e7-43fe-9315-803a16746a02"/>
+			</line>
+			<rectangle>
+				<reportElement x="425" y="342" width="107" height="22" uuid="48c7f978-4cf2-42b1-8990-3d2ca8359995"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="95" y="364" width="84" height="19" uuid="b18f156f-8f82-47bd-b4c4-848ce01e38e3"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[(Drug name)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="401" width="336" height="16" uuid="75a083dd-0219-4c21-91d9-d61794ee8bb4"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[j. History of difficulty faced during adminstration of drug :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="425" y="401" width="107" height="22" uuid="6a159bc2-c5bd-4f61-9ac6-18239ccbe29a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="431" width="523" height="29" uuid="3eba0da5-6cd8-43aa-8894-7505c7471b1b"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Any difficulty faced in ingestion of tablets, capsules, medicated liquids and any other oral dosage forms or in receiving injectable medicatons through I.V, I.M, S.C etc., or in receiving transdermal medications etc.,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="460" width="523" height="19" uuid="e9ef3fdf-d0cc-4b8a-b166-abbb1156053e"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, specify details]]></text>
+			</staticText>
+			<line>
+				<reportElement x="121" y="479" width="250" height="1" uuid="00e7f9d0-e3fc-4d2d-8205-88839d85ac99"/>
+			</line>
+			<rectangle>
+				<reportElement x="7" y="502" width="337" height="35" uuid="605f04a7-8b4d-48aa-8882-a4a15e6d5e67"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="15" y="512" width="144" height="14" uuid="4834560d-4b8c-4b3b-bd7c-acfa41e22f7b"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Recorded by (Sign & date)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="160" y="502" width="1" height="35" uuid="39cc3369-b519-44d1-b958-77f49504917d"/>
+			</line>
+			<textField>
+				<reportElement x="431" y="48" width="64" height="18" uuid="36a6317c-ec03-43a4-85fd-99a9fc5edfd7"/>
+				<textFieldExpression><![CDATA[$F{appetite}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="13" y="90" width="100" height="20" uuid="90ff682d-de5f-46b4-9da9-25e2490b7f80"/>
+				<textFieldExpression><![CDATA[$F{appetiteDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="154" width="100" height="18" uuid="8127d398-8dad-4cfd-ac19-ab579a507972"/>
+				<textFieldExpression><![CDATA[$F{onSpecialDiet} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="264" width="100" height="18" uuid="1e9abaf0-0988-479f-be2b-1ab2b3419d48"/>
+				<textFieldExpression><![CDATA[$F{allergies} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="207" y="296" width="74" height="14" uuid="5472604e-7456-4e13-9258-4183c24bb628"/>
+				<textFieldExpression><![CDATA[$F{allergyType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="428" y="344" width="112" height="18" uuid="5bbef035-d0a5-4860-86b4-4e49945b5537"/>
+				<textFieldExpression><![CDATA[$F{studySpecificAllergy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="146" y="464" width="180" height="16" uuid="151f9518-2cc7-424d-8eae-45f4233d793a"/>
+				<textFieldExpression><![CDATA[$F{diffFacedDuringDrugAdminDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="428" y="404" width="94" height="16" uuid="63060c15-be25-427c-81fe-7854d915a037"/>
+				<textFieldExpression><![CDATA[$F{diffFacedDuringDrugAdmin} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="511" width="82" height="18" uuid="6c941f7b-d283-4c5a-8e83-1905bfe7bf2b"/>
+				<textFieldExpression><![CDATA[$F{recordedBy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="12" y="197" width="106" height="20" uuid="fc21d016-5c08-4f3e-bdb1-9998c4e92e91"/>
+				<textFieldExpression><![CDATA[$F{specailDietDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="148" y="317" width="52" height="14" uuid="448b9ae0-21c1-415e-912f-fea3fc9dd50f"/>
+				<textFieldExpression><![CDATA[$F{allergySymtoms}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="349" width="100" height="14" uuid="7390035f-cb79-4796-8c1a-8f7070764099"/>
+				<textFieldExpression><![CDATA[$F{allergicToDrug}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="313" width="138" height="18" uuid="49957233-a144-45f4-abf6-cb66a59ca979"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[symptoms and date of onset]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="203" y="317" width="74" height="14" uuid="e11c2d39-ab39-4012-b884-9ce295a7d006"/>
+				<textFieldExpression><![CDATA[$F{allergyDate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

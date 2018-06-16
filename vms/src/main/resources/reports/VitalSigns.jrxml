@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 2" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="504d3128-c421-430a-bae6-9c259fe4eecf">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="volunteerRegNum" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="medicalExamStartTime" class="java.lang.String">
+		<fieldDescription><![CDATA[medicalExamStartTime]]></fieldDescription>
+	</field>
+	<field name="bodyTemparature" class="java.lang.String">
+		<fieldDescription><![CDATA[bodyTemparature]]></fieldDescription>
+	</field>
+	<field name="respiratoryRate" class="java.lang.String">
+		<fieldDescription><![CDATA[respiratoryRate]]></fieldDescription>
+	</field>
+	<field name="sittingBloodPressure" class="java.lang.String">
+		<fieldDescription><![CDATA[sittingBloodPressure]]></fieldDescription>
+	</field>
+	<field name="radialPulseRate" class="java.lang.String">
+		<fieldDescription><![CDATA[radialPulseRate]]></fieldDescription>
+	</field>
+	<field name="recordedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedBy]]></fieldDescription>
+	</field>
+	<field name="formNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[formNumber]]></fieldDescription>
+	</field>
+	<field name="sopNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[sopNumber]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="127" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="30" width="539" height="30" uuid="796bc264-3a49-4ebb-9814-12242f9649ee"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[MEDICAL SCREENING RECORD FOR VOLUNTEERS]]></text>
+			</staticText>
+			<image>
+				<reportElement x="422" y="0" width="117" height="30" uuid="452e1958-6e8b-44d2-801b-ff3946a38cad"/>
+				<imageExpression><![CDATA["images/AIZlogo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement key="" x="0" y="0" width="422" height="30" uuid="db47410e-c0df-4c0e-917e-a2cb4d9ff829"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="60" width="189" height="25" uuid="04132408-d801-4338-a275-42cb1f8f2529"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Form No.: " + $F{formNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="387" y="60" width="152" height="25" uuid="35b21044-63d6-4c80-b76c-19e8c75b709e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reference SOP No. : " + $F{sopNumber}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="85" width="189" height="25" uuid="f2a9919e-60f0-43a1-8be1-2e10a43d241e"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="85" width="189" height="25" uuid="906a4866-40ec-4163-82c5-4fb8d11a25ec"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reg. No. : " + $F{volunteerRegNum}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="126" width="539" height="1" uuid="9ee1876c-94a3-4fe5-9d2e-47374acdd672"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="110" width="539" height="16" uuid="e74c2cc2-aebf-43ec-a261-1726668597ac"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="215" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="66" width="539" height="108" uuid="d33f323c-6aea-4196-a912-a1de34cf91d4"/>
+			</rectangle>
+			<line>
+				<reportElement x="160" y="66" width="1" height="108" uuid="d0a735b8-abe9-4c90-b2c3-df9fea456b79"/>
+			</line>
+			<line>
+				<reportElement x="0" y="91" width="539" height="1" uuid="cddd7bf4-28bd-453f-8940-ff6773bb12d4"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="117" width="539" height="1" uuid="562f54da-b080-43ab-b8fa-a3942f3269d1"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="66" width="160" height="25" uuid="7bfbb747-ce47-47a8-99d7-0aedcaff0556"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Radial Pulse Rate (Beats/min)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="92" width="160" height="25" uuid="1eb8bc96-fccf-4210-8c7d-71fae10d41c7"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Sitting Blood Pressure (mm Hg)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="118" width="160" height="25" uuid="a62a28aa-ebb2-4d47-abef-e692e1c9bbf0"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Body Temperature (°F)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="144" width="160" height="30" uuid="5385a819-5fe4-4aa8-bc4f-986d139cbf4c"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Respiratory Rate (Breaths/min)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="41" width="539" height="25" uuid="de193a18-ee18-469d-83fa-107f02a0b663"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3. VITAL SIGNS]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="143" width="539" height="1" uuid="260a3a95-6c54-40c2-9f8b-e0b10aa4cd89"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="0" y="190" width="351" height="25" uuid="dc49c09e-9084-4b65-a5ef-ea50177087f6"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="190" width="157" height="25" uuid="cbc9f686-85aa-4fe5-beaf-328c1a66c99f"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Recorded by (Sign & date)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="157" y="190" width="1" height="25" uuid="8b821abe-ef76-439b-b533-897ef93bee72"/>
+			</line>
+			<textField>
+				<reportElement x="161" y="66" width="378" height="25" uuid="b85ab4c1-7731-4ae5-b867-72ffca8be377">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b8cfff64-1dbf-496b-b90a-d7c8b3edda4d"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{radialPulseRate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="92" width="378" height="25" uuid="2b1df478-b4ae-4d68-8aa5-dad158ecef74">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="445cd9e7-3981-4abf-8921-d279fbcf7bcf"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sittingBloodPressure}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="118" width="378" height="25" uuid="d9d93e5b-079b-4e03-931d-535edc25d8e9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="521a8264-1703-4d16-a218-d40593ff375b"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bodyTemparature}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="144" width="378" height="30" uuid="80d80fb0-6733-496b-9e23-9f4d677ffc0d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f64ce5aa-0a33-4d6f-a381-77b74f8f404d"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respiratoryRate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="158" y="190" width="193" height="25" uuid="0e5e7468-d5e7-4aab-b209-1dfd3f8ebfc1">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fe6b4d45-975a-4a47-99da-55b50215f37e"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{recordedBy}==null)? "NA":$F{recordedBy}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="244" y="16" width="295" height="25" uuid="40e2c155-ba0a-404b-b584-2d466e8cc5f4"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="244" y="16" width="190" height="25" uuid="6a56e420-96b8-4d99-9cfe-319c57cd93f8"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Medical Examination start time :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="434" y="16" width="1" height="25" uuid="4555708d-4e3c-4ccf-be98-98d973920803"/>
+			</line>
+			<textField>
+				<reportElement x="435" y="16" width="104" height="25" uuid="df09853b-6e4d-44a9-8510-b686920a7916"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{medicalExamStartTime}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="539" height="16" uuid="f961a0f7-0b33-4cdd-a384-f3b68968d6b0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="174" width="539" height="16" uuid="f86fa0d9-ee23-47d1-aed2-63133674447f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

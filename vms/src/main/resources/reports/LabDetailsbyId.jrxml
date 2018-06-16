@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Aizant_Haematology" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="687d3e62-3347-4e2d-a2fe-0999915cc62f">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="533"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="453"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="labId" class="java.lang.String">
+		<fieldDescription><![CDATA[labId]]></fieldDescription>
+	</field>
+	<field name="regNum" class="java.lang.String">
+		<fieldDescription><![CDATA[regNum]]></fieldDescription>
+	</field>
+	<field name="age" class="java.lang.String">
+		<fieldDescription><![CDATA[age]]></fieldDescription>
+	</field>
+	<field name="referredBy" class="java.lang.String">
+		<fieldDescription><![CDATA[referredBy]]></fieldDescription>
+	</field>
+	<field name="subjectInitials" class="java.lang.String">
+		<fieldDescription><![CDATA[subjectInitials]]></fieldDescription>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<fieldDescription><![CDATA[gender]]></fieldDescription>
+	</field>
+	<field name="projectNo" class="java.lang.String">
+		<fieldDescription><![CDATA[projectNo]]></fieldDescription>
+	</field>
+	<field name="samplecollectedAt" class="java.lang.String">
+		<fieldDescription><![CDATA[samplecollectedAt]]></fieldDescription>
+	</field>
+	<field name="samplecollectedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[samplecollectedOn]]></fieldDescription>
+	</field>
+	<field name="sampleReceivedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[sampleReceivedOn]]></fieldDescription>
+	</field>
+	<field name="reportedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[reportedOn]]></fieldDescription>
+	</field>
+	<field name="haematologyDetails" class="java.util.List">
+		<fieldDescription><![CDATA[haematologyDetails]]></fieldDescription>
+	</field>
+	<field name="serologyDetails" class="java.util.List">
+		<fieldDescription><![CDATA[serologyDetails]]></fieldDescription>
+	</field>
+	<field name="bioDetails" class="java.util.List">
+		<fieldDescription><![CDATA[bioDetails]]></fieldDescription>
+	</field>
+	<variable name="Variable_1" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="177">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="22" uuid="ec9e6e09-e545-495e-894c-279ff0046ea4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Aizant Drug Research Solution Pvt. Ltd.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="22" width="555" height="15" uuid="2f433611-245c-4c33-be7b-ab9f65566aa4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Hyderabad]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="37" width="351" height="26" uuid="7416894b-aa84-458a-b2b9-75c55558e09f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LABORATORY REPORT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="37" width="100" height="26" uuid="3a6cb677-8c4e-4805-8318-8d587109579b"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<image>
+				<reportElement x="451" y="37" width="104" height="26" uuid="c276bb71-8004-4798-93f2-ce020b88eef2"/>
+				<imageExpression><![CDATA["src/main/resources/images/AIZlogo.png"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="0" y="63" width="555" height="1" uuid="144cb62c-472f-4344-90f6-53ecb2bad674"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="82" width="124" height="18" uuid="8ff32d60-157a-4f02-a54d-b8e6e8f70ca9"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Subject No / Reg No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="100" width="124" height="18" uuid="b6233c21-0101-48b7-ac5e-d743ab693837"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="118" width="124" height="18" uuid="0b6e81a6-74d2-490e-a190-527c4840ac9b"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Referred By]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="136" width="124" height="18" uuid="f6efb9eb-aa08-4ceb-b4f0-2b32c327dd46"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Subject Initials]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="154" width="124" height="18" uuid="b4f87c95-6e00-476d-bfa4-31fbda994d90"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Sex]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="295" y="82" width="119" height="18" uuid="8822c199-5485-4d60-87bb-2f4e7e2c2bbd"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Sample Collected at]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="295" y="100" width="119" height="18" uuid="62bb071d-9ede-49b7-a84a-f349976fed9b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Sample Collected on]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="295" y="118" width="119" height="18" uuid="88aa921f-dea8-4235-8ccc-36d7ce682c4a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Sample Received on]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="295" y="136" width="119" height="18" uuid="75fdca37-0354-4451-b16a-87f4101eed1c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Reported on]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="64" width="124" height="18" uuid="ffa6f88c-56ab-4df2-ad4b-262ca07d060d"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[LAB ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="295" y="64" width="119" height="18" uuid="9eaad07f-4d9f-46a4-b4f6-1556ec7a77f4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[PROJECT NO]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="134" y="64" width="161" height="18" uuid="3350dc51-8d04-4113-a522-0cb691c4a129"/>
+				<box topPadding="2" leftPadding="0" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{labId}==null)?"NA":$F{labId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="82" width="161" height="18" uuid="43b160ff-f92f-4fac-b284-d20d4088da8b"/>
+				<box topPadding="2" leftPadding="0" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{regNum}==null)?"NA":$F{regNum}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="100" width="161" height="18" uuid="a60e0591-3b48-4c05-92ec-ba134e6cf9b0"/>
+				<box topPadding="2" leftPadding="0" bottomPadding="2" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{age}==null)?"NA":$F{age}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="118" width="161" height="18" uuid="c230b928-8c76-40bf-ac2b-62f3545a10c6"/>
+				<box topPadding="2" leftPadding="0" bottomPadding="2" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{referredBy}==null)?"NA":$F{referredBy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="136" width="161" height="18" uuid="e8c083e6-ee87-4b60-80e8-e5e6eef071c4"/>
+				<box topPadding="2" leftPadding="0" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{subjectInitials}==null)?"NA":$F{subjectInitials}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="154" width="161" height="18" uuid="0e93c77e-c175-4469-b48e-1c6499851585"/>
+				<box topPadding="2" leftPadding="0" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{gender}==null)?"NA":$F{gender}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MMM/yyyy h:mm a">
+				<reportElement x="424" y="82" width="131" height="18" uuid="edd477dc-fb86-4920-849c-68853b536d90"/>
+				<box topPadding="2" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{samplecollectedAt}==null)?"NA":$F{samplecollectedAt}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd-MMM-yyyy h:mm a">
+				<reportElement x="424" y="100" width="131" height="18" uuid="32ea1b77-0fd4-401e-9626-42db7bd43b57"/>
+				<box topPadding="2" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{samplecollectedOn}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd-MMM-yyyy h:mm a">
+				<reportElement x="424" y="118" width="131" height="18" uuid="93f517d9-6100-41bd-b361-0427dbe45b1d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{sampleReceivedOn}==null)?"NA":$F{sampleReceivedOn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="424" y="136" width="131" height="18" uuid="878dfec2-10c5-4c81-819f-c285c8535a64"/>
+				<box topPadding="2" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{reportedOn}==null)?"NA":$F{reportedOn}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="172" width="555" height="1" uuid="2e054149-6730-4f02-b811-ac50156a49e6"/>
+			</line>
+			<textField>
+				<reportElement x="424" y="64" width="131" height="18" uuid="7f483105-e55c-4053-ade4-289c1bbdad54"/>
+				<box topPadding="2" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{projectNo}==null)?"NA":$F{projectNo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="124" y="64" width="10" height="18" uuid="da36f49f-6a37-45db-8943-0feafdfdee4f"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="82" width="10" height="18" uuid="04e96ab7-b39f-4f7c-902d-457df58f6a52"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="100" width="10" height="18" uuid="efca3376-210b-424e-81d7-cf602c6b3769"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="118" width="10" height="18" uuid="9682fbc2-8b2f-4cbe-8577-090020db90e5"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="136" width="10" height="18" uuid="67e441ea-d31e-44d7-8d7b-12207d0a3258"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="154" width="10" height="18" uuid="1ba9c772-dbb9-4cc8-86e2-f7776513efbf"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="414" y="64" width="10" height="18" uuid="b5175787-ff6c-4366-802d-2268fd05cd0a"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="414" y="82" width="10" height="18" uuid="56470b78-46ba-4fb3-aff3-755fd831c1a7"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="414" y="100" width="10" height="18" uuid="a49cbbf1-d604-4707-a21b-bba79a027148"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="414" y="118" width="10" height="18" uuid="7fda2157-1fdc-4b2e-8d53-29b7eca19027"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="414" y="136" width="10" height="18" uuid="3ca2a5ee-1511-4133-9c33-28e039fab5a1"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="71">
+			<staticText>
+				<reportElement x="0" y="0" width="554" height="25" uuid="b5d221e4-b8e5-4b17-8588-510edca054b8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16"/>
+				</textElement>
+				<text><![CDATA[HAEMATOLOGY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="26" width="180" height="18" uuid="24ab2de6-fa08-4740-a46a-ea0fe9cc0b5d"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[TEST DONE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="26" width="180" height="18" uuid="2028826f-f3ca-42da-be68-1e4db73b8655"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[OBSERVED VALUES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="26" width="195" height="18" uuid="924bc424-9259-4bd5-9f3a-3a3b6eefd4ec"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[REFERENCE INTERVAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="25" width="555" height="1" uuid="ae2621e1-d40e-4e14-9d7a-d56682d66762"/>
+			</line>
+			<line>
+				<reportElement x="0" y="44" width="555" height="1" uuid="e43d43cb-3b9c-440b-813f-7971b3e0b927"/>
+			</line>
+			<subreport>
+				<reportElement x="0" y="45" width="180" height="25" uuid="636285b0-25a2-4e3d-a49c-95ac1e8433be"/>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{haematologyDetails})]]></dataSourceExpression>
+				<subreportExpression><![CDATA["src/main/resources/reports/haematologydetails.jasper"]]></subreportExpression>
+			</subreport>
+			<break>
+				<reportElement x="0" y="70" width="100" height="1" uuid="7e481e6c-fcc7-4a66-ba27-55a252fad9b1"/>
+			</break>
+		</band>
+		<band height="76">
+			<staticText>
+				<reportElement x="0" y="0" width="554" height="25" uuid="f09abf16-2cd2-45e5-8c24-45e5ab368197"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16"/>
+				</textElement>
+				<text><![CDATA[BIOCHEMISTRY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="26" width="180" height="18" uuid="cf47789f-1ffb-4ace-9b46-92756d2366d9"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[TEST DONE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="26" width="180" height="18" uuid="8ef47b0c-a49f-4948-9808-5ef84c7b4fd0"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[OBSERVED VALUES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="26" width="195" height="18" uuid="e6f79659-dc82-4b90-85fc-a3b01644d080"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[REFERENCE INTERVAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="25" width="555" height="1" uuid="cf3724d6-5e8b-4aed-9769-4b3fb64a75a9"/>
+			</line>
+			<line>
+				<reportElement x="0" y="44" width="555" height="1" uuid="ceb23b90-c3c4-485a-a911-a12d7a484eb8"/>
+			</line>
+			<subreport>
+				<reportElement x="0" y="45" width="200" height="30" uuid="e274dae3-9e1b-4fe3-b969-668f50409cbe"/>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{bioDetails})]]></dataSourceExpression>
+				<subreportExpression><![CDATA["src/main/resources/reports/bioDetails.jasper"]]></subreportExpression>
+			</subreport>
+			<break>
+				<reportElement x="0" y="75" width="100" height="1" uuid="8f12ca80-c022-4c1c-98ec-3e1a2b4bb03f"/>
+			</break>
+		</band>
+		<band height="80">
+			<staticText>
+				<reportElement x="0" y="0" width="554" height="25" uuid="5bfa7a81-481e-4b60-8aa6-85739befc1b9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16"/>
+				</textElement>
+				<text><![CDATA[SEROLOGY]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="25" width="555" height="1" uuid="22779365-309e-4d82-a662-da6cc59d283e"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="26" width="180" height="18" uuid="21c96ada-a128-4292-813a-e04db49ad924"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[TEST DONE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="26" width="180" height="18" uuid="80fbcd6f-d256-4813-9ca5-b683d98e0dd8"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[OBSERVED VALUES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="26" width="195" height="18" uuid="3d00969e-5bae-458a-998f-5237cc947c67"/>
+				<box leftPadding="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[REFERENCE INTERVAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="44" width="555" height="1" uuid="a1451e66-9e08-4657-8abd-b3f18eebafd4"/>
+			</line>
+			<subreport>
+				<reportElement x="0" y="45" width="200" height="35" uuid="c5a8ca4f-e1c3-4bc5-a2c9-539c1a38485f"/>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{serologyDetails})]]></dataSourceExpression>
+				<subreportExpression><![CDATA["src/main/resources/reports/serologyDetails.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="111">
+			<staticText>
+				<reportElement x="0" y="83" width="554" height="28" uuid="df0e3249-d9ef-4533-8043-6ddcbd1969d0"/>
+				<box leftPadding="75" rightPadding="75"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<text><![CDATA[Survey No. 172 & 173, Apparel Park Road, Dulapally Village, Rangareddy District, T.S - 500 100. India. Tel : 040 - 23792190 / 91 / 92, Fax : +91 - 40 - 23792223]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="82" width="555" height="1" uuid="a6fc48ee-c888-461e-91f2-e966b1be66ff"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="#000000"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="370" y="56" width="185" height="15" uuid="bf52fd19-1bc9-4cb3-8e36-724da6fe6d8f"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Authorized by]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="185" y="56" width="185" height="15" uuid="58036cd1-1dbe-4e5d-8a37-eebb459d0b4c"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Reviewed by]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="56" width="185" height="15" uuid="76646b32-3461-43af-8db6-42abd61ff06a"/>
+				<box leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Prepared by]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="1" width="555" height="18" uuid="75d17054-7654-4e39-8f96-1fd38a8f87a0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[***End of the Report***]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

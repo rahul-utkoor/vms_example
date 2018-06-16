@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 2" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="504d3128-c421-430a-bae6-9c259fe4eecf">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="surgicalHistory" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[surgicalHistory]]></fieldDescription>
+	</field>
+	<field name="dateOfDetection" class="java.lang.String">
+		<fieldDescription><![CDATA[dateOfDetection]]></fieldDescription>
+	</field>
+	<field name="typeOfIllness" class="java.lang.String">
+		<fieldDescription><![CDATA[typeOfIllness]]></fieldDescription>
+	</field>
+	<field name="familyPlanningSelf" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[familyPlanningSelf]]></fieldDescription>
+	</field>
+	<field name="surgeryDate" class="java.lang.String">
+		<fieldDescription><![CDATA[surgeryDate]]></fieldDescription>
+	</field>
+	<field name="treatmentHistory" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[treatmentHistory]]></fieldDescription>
+	</field>
+	<field name="hospitalized" class="java.lang.String">
+		<fieldDescription><![CDATA[hospitalized]]></fieldDescription>
+	</field>
+	<field name="familyPlanningSpouse" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[familyPlanningSpouse]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="medicalHistory" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[medicalHistory]]></fieldDescription>
+	</field>
+	<field name="familyPlanningSouseDate" class="java.lang.String">
+		<fieldDescription><![CDATA[familyPlanningSouseDate]]></fieldDescription>
+	</field>
+	<field name="updatedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[updatedBy]]></fieldDescription>
+	</field>
+	<field name="treatmentDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[treatmentDetails]]></fieldDescription>
+	</field>
+	<field name="created" class="java.util.Date">
+		<fieldDescription><![CDATA[created]]></fieldDescription>
+	</field>
+	<field name="volunteerRegNum" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="center" class="com.aizant.vms.model.StudyCenter">
+		<fieldDescription><![CDATA[center]]></fieldDescription>
+	</field>
+	<field name="familyPlanningSelfComments" class="java.lang.String">
+		<fieldDescription><![CDATA[familyPlanningSelfComments]]></fieldDescription>
+	</field>
+	<field name="surgeryName" class="java.lang.String">
+		<fieldDescription><![CDATA[surgeryName]]></fieldDescription>
+	</field>
+	<field name="surgeryReason" class="java.lang.String">
+		<fieldDescription><![CDATA[surgeryReason]]></fieldDescription>
+	</field>
+	<field name="treatmentTaken" class="java.lang.String">
+		<fieldDescription><![CDATA[treatmentTaken]]></fieldDescription>
+	</field>
+	<field name="reviewedBy" class="java.lang.Long">
+		<fieldDescription><![CDATA[reviewedBy]]></fieldDescription>
+	</field>
+	<field name="familyPlanning" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[familyPlanning]]></fieldDescription>
+	</field>
+	<field name="recordedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedBy]]></fieldDescription>
+	</field>
+	<field name="reviewedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[reviewedOn]]></fieldDescription>
+	</field>
+	<field name="createdBy" class="java.lang.String">
+		<fieldDescription><![CDATA[createdBy]]></fieldDescription>
+	</field>
+	<field name="familyPlannningSelfDate" class="java.lang.String">
+		<fieldDescription><![CDATA[familyPlannningSelfDate]]></fieldDescription>
+	</field>
+	<field name="reviewedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[reviewedOnDate]]></fieldDescription>
+	</field>
+	<field name="familyPlanningSpouseComments" class="java.lang.String">
+		<fieldDescription><![CDATA[familyPlanningSpouseComments]]></fieldDescription>
+	</field>
+	<field name="recordedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedOnDate]]></fieldDescription>
+	</field>
+	<field name="recordedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[recordedOn]]></fieldDescription>
+	</field>
+	<field name="updated" class="java.util.Date">
+		<fieldDescription><![CDATA[updated]]></fieldDescription>
+	</field>
+	<field name="formNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[formNumber]]></fieldDescription>
+	</field>
+	<field name="sopNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[sopNumber]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="127">
+			<staticText>
+				<reportElement x="0" y="30" width="539" height="30" uuid="33901f41-135b-43eb-9871-7a1b4c09c47d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[MEDICAL SCREENING RECORD FOR VOLUNTEERS]]></text>
+			</staticText>
+			<image>
+				<reportElement x="422" y="0" width="117" height="30" uuid="ca92246a-7f51-4aea-81de-fe695bbbbf75"/>
+				<imageExpression><![CDATA["images/AIZlogo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement key="" x="0" y="0" width="422" height="30" uuid="b26c2d0d-53d2-4dd6-b378-54cc2075cd0a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="387" y="60" width="152" height="25" uuid="0b46478b-06dc-4998-b3a0-4072a080b09d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reference SOP No. : " + $F{sopNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="60" width="189" height="25" uuid="9cabb4dc-c050-4cc3-bbf4-1764bf6626f9"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Form No.:  " + $F{formNumber}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="85" width="189" height="25" uuid="73b03663-c26c-461f-a020-bbba0222ced5"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="85" width="189" height="25" uuid="7970da4d-9683-4094-8a37-ab5f3951b1b9"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reg. No. : " + $F{volunteerRegNum}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="126" width="539" height="1" uuid="80934080-f447-4e4c-bd1b-2a574c45c59a"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="110" width="539" height="16" uuid="411fb538-0387-44af-a9f7-efe84c25040f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+		<band height="659" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="125" width="539" height="61" uuid="d33f323c-6aea-4196-a912-a1de34cf91d4"/>
+			</rectangle>
+			<line>
+				<reportElement x="121" y="125" width="1" height="61" uuid="d0a735b8-abe9-4c90-b2c3-df9fea456b79"/>
+			</line>
+			<line>
+				<reportElement x="261" y="125" width="1" height="61" uuid="74d2a3f6-8c0e-48ae-8870-40b851ff466f"/>
+			</line>
+			<line>
+				<reportElement x="0" y="155" width="539" height="1" uuid="cddd7bf4-28bd-453f-8940-ff6773bb12d4"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="125" width="121" height="30" uuid="7bfbb747-ce47-47a8-99d7-0aedcaff0556"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Type of illness]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="539" height="25" uuid="de193a18-ee18-469d-83fa-107f02a0b663"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5. PAST HISTORY :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="25" width="539" height="25" uuid="650d5e47-6ee2-44d4-a5fa-73d4b2694fd6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[a. Medical History :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="122" y="125" width="139" height="30" uuid="c14d955a-9594-45bc-9f32-29a0db7fa02f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of Onset/Detection]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="262" y="125" width="133" height="30" uuid="9f2703c1-0414-4e51-b310-7f45b5a811a2"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Hospitalized (Y/N)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="50" width="539" height="42" uuid="5c4c3ba2-34c8-4e27-abed-009d40d40eed"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Any history of major illness in the recent past (Including Psychiatric, Metabolic and Endocrinal diseases), any history of Tuberculosis, Jaundice, Malaria, any significant hospitalizations and any history of congenital diseases which can affect the volunteer's health while participating in the study]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="92" width="112" height="25" uuid="97a58461-e39e-4e2f-83aa-6dfa7fc508d1"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, specify details :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="395" y="125" width="1" height="61" uuid="c9cabebf-1de6-4937-9df3-f77fac8c866e"/>
+			</line>
+			<staticText>
+				<reportElement x="396" y="125" width="143" height="30" uuid="9c0d9f8b-d0c5-4e2f-84c4-b078ec3ce5ea"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Treatment taken (if any)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="198" width="539" height="20" uuid="e093af35-426b-4c95-b062-184426cc111a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[b. Surgical History :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="218" width="539" height="20" uuid="8b20ef30-5a36-4011-b1a0-54e614355752"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Any recent history of surgical/operative/accident procedure or any accidents/fractures during last 3 years.]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="92" width="104" height="25" uuid="bcb9f0e9-353c-4061-8990-0aab10ee95a7"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="238" width="112" height="25" uuid="adaa70bf-cf44-4a98-bf35-a96843148b8d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, specify details :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="238" width="104" height="25" uuid="1b046f02-3a68-4009-8fa7-19007a3a7b0f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="275" width="539" height="66" uuid="fea47883-fcdd-4161-a829-1a63e3a7b4ae"/>
+			</rectangle>
+			<line>
+				<reportElement x="183" y="275" width="1" height="66" uuid="a7acbb21-b58f-42b8-aa8c-f66f348b71de"/>
+			</line>
+			<line>
+				<reportElement x="379" y="275" width="1" height="66" uuid="0c562c57-72ca-4ab8-8935-a9d823b8a0c7"/>
+			</line>
+			<line>
+				<reportElement x="0" y="300" width="539" height="1" uuid="c74f5ec6-665f-4b6d-b838-5e77c64323dc"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="275" width="183" height="25" uuid="0c530c93-5cdb-4059-a3b7-aaf84a6c9687"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Surgery]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="275" width="159" height="25" uuid="6334ce77-56a3-41fa-bf83-d2287e7bb4ae"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="184" y="275" width="195" height="25" uuid="22b846bb-3f61-465e-a001-2255155b0127"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Reason]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="353" width="142" height="25" uuid="e74d2ec1-83df-423e-b834-08930b650d42"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[c. Family planning details :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="378" width="539" height="25" uuid="db382917-42d0-4748-9cce-06e5ec77bfef"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If applicable, specify details :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="353" width="104" height="25" uuid="1fd5fef9-6101-4c93-a614-54bbe4ef53e3"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="403" width="539" height="77" uuid="41587fa3-4fe8-431b-9332-72cd171c437d"/>
+			</rectangle>
+			<line>
+				<reportElement x="83" y="403" width="1" height="77" uuid="9e180128-b97d-4b10-94bc-1810c043a980"/>
+			</line>
+			<line>
+				<reportElement x="343" y="403" width="1" height="77" uuid="af6f68c4-036e-4423-90a7-75f5b737c632"/>
+			</line>
+			<line>
+				<reportElement x="0" y="428" width="539" height="1" uuid="338998fa-8382-4b5f-ac7b-3b523fcc2ede"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="454" width="539" height="1" uuid="908ec170-5c86-4ec1-b435-9582da7d6e2e"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="403" width="83" height="25" uuid="788f1fda-ee18-4f59-8fce-fa4022e49fff"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="344" y="403" width="195" height="25" uuid="fd7ed173-1228-4723-870c-d291df37108d"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comments]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="218" y="403" width="125" height="25" uuid="69e8c1de-5ebb-4263-89ea-c495ffa6b41d"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<line>
+				<reportElement x="217" y="403" width="1" height="77" uuid="afd3fe07-c3f5-4620-8b5d-69a24bf7fa05"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="429" width="83" height="25" uuid="13893015-ff82-488c-bec5-38a237782c21"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Self]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="455" width="83" height="25" uuid="063de8c2-0ec2-4086-94b7-54fb0b3bf526"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Spouse]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="492" width="142" height="25" uuid="f7d5605e-f469-4892-bdd0-75c867596e09"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[d. Treatment History :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="517" width="539" height="25" uuid="014c0988-563e-497a-9204-3148d00e8fd6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[History of intake of any medicines (prescriptions and over the counter drugs) in the past two (2) weeks:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="492" width="104" height="25" uuid="2f30a6f4-ee09-4fb1-9de5-0c90b1a1f6c4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="542" width="539" height="67" uuid="e65ae4ee-3469-4406-b4eb-4bd901d0fb63"/>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="567" width="539" height="1" uuid="073e412f-b4f9-460b-adfb-ebc6809014a2"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="542" width="539" height="25" uuid="69dae80e-22ff-452c-a163-cbd25f961f07"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[If yes, please specify the dose, frequency, indication, duration of treatment and any other details]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="634" width="372" height="25" uuid="6e3a7460-fca7-4f3b-a239-d4e7af1eff6b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="634" width="192" height="25" uuid="3c3e2ce8-b7f1-4a22-b786-606745fb3440"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Recorded by (Sign & date)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="192" y="634" width="1" height="25" uuid="9309f7e3-829a-4c19-b7ff-41b16b5289f7"/>
+			</line>
+			<textField>
+				<reportElement x="435" y="92" width="103" height="25" uuid="8125bccf-cc71-4a32-8539-b09c3c88d9c4"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{medicalHistory} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="156" width="121" height="30" uuid="7bd6cc43-b674-48fe-91f3-dec0b66818a0"/>
+				<box topPadding="3" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{typeOfIllness}.isEmpty() ? "NA" : $F{typeOfIllness}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="122" y="156" width="139" height="30" uuid="ae2e68cf-9bd1-46db-993c-827c97f480a0"/>
+				<box topPadding="3" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dateOfDetection}.isEmpty() ? "NA" : $F{dateOfDetection}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="262" y="156" width="133" height="30" uuid="2da9de93-67a1-4c37-8b17-63bdafbda392"/>
+				<box topPadding="3" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hospitalized}.isEmpty() ? "NA" : $F{hospitalized}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="396" y="156" width="143" height="30" uuid="f908c73f-6b02-4cb4-bba4-8b9f0d07dade"/>
+				<box topPadding="3" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{treatmentTaken}.isEmpty() ? "NA" : $F{treatmentTaken}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="238" width="104" height="25" uuid="d50a8c55-9db9-4274-a58c-034ebfaddeb6"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{surgicalHistory} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="301" width="159" height="40" uuid="75ac517c-14c2-47ee-8ded-fb200e63e83b"/>
+				<box topPadding="3" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{surgeryDate}.isEmpty() ? "NA" : $F{surgeryDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="184" y="301" width="195" height="40" uuid="3b6233a3-877f-42fd-99e1-acbec8e8e48e"/>
+				<box topPadding="3" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{surgeryReason}.isEmpty() ? "NA" : $F{surgeryReason}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="301" width="183" height="40" uuid="05a8c254-f3f4-465d-bf8c-12f24e0dab87"/>
+				<box topPadding="3" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{surgeryName}.isEmpty() ? "NA" : $F{surgeryName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="429" width="125" height="25" uuid="1a2831c5-38a3-4a65-8add-9b1f9a41961f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{familyPlannningSelfDate}.isEmpty() ? "NA" : $F{familyPlannningSelfDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="344" y="429" width="195" height="25" uuid="c66c2dd9-37a5-4b2d-97d7-5ece80570715"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{familyPlanningSelfComments}.isEmpty() ? "NA" : $F{familyPlanningSelfComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="353" width="104" height="25" uuid="50726429-d0b2-4b00-a0e7-811048fdc769"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{familyPlanning} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="429" width="133" height="25" uuid="2b56e51b-aee5-488c-89a4-a718474dc040"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{familyPlanningSelf}==null)?"NA":($F{familyPlanningSelf} ?"Yes":"No")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="455" width="133" height="25" uuid="1ba83e9e-74fb-4d21-9763-9c7b1f22206c"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{familyPlanningSpouse}==null)?"NA":($F{familyPlanningSpouse} ?"Yes":"No")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="455" width="125" height="25" uuid="9211f7af-5eb8-403c-875c-9fd710518d4c"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{familyPlanningSouseDate}.isEmpty() ? "NA" : $F{familyPlanningSouseDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="492" width="104" height="25" uuid="3b8cc2de-0964-4622-9159-3369638be988"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{treatmentHistory} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="568" width="539" height="41" uuid="3078f413-b911-4c4b-a05b-4fbe98c460bf"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{treatmentDetails}.equals(" ") ? "NA" : $F{treatmentDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="193" y="634" width="179" height="25" uuid="fc74b4fc-c5a9-45f3-8d2f-211489649d37"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{recordedBy}==null)? "-":$F{recordedBy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="84" y="403" width="133" height="25" uuid="4b33d6e8-ea40-49ac-b641-e0cb9526d40d"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Yes / No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="117" width="539" height="8" uuid="8f9485f1-9e7a-471c-9e68-08bb154061b9"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="186" width="539" height="12" uuid="1f788813-f6b7-45ed-9425-75d6ee3d9864"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="263" width="539" height="12" uuid="b0163c3e-4f8d-4c59-ac83-90453baeadb8"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="341" width="539" height="12" uuid="1252ebea-fbf1-46f3-bddb-d1c31c153bfb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="480" width="539" height="12" uuid="df7e3e64-4458-4a98-b57f-2374b2e88a01"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="609" width="539" height="25" uuid="4ce0761d-b4a3-4209-988d-2cfcebc053cb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="372" y="634" width="167" height="25" uuid="6bb0361c-d07d-4599-a976-8f5379171831"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="344" y="455" width="195" height="25" uuid="10315f81-96bc-4a23-90c6-61518f8b97af"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{familyPlanningSpouseComments}.isEmpty() ? "NA" : $F{familyPlanningSpouseComments}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

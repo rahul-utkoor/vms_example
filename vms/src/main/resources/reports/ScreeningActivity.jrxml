@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ScreeningActivity" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7fe06856-c7cb-42cb-8afa-2e8a4b71d9c8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="registrationNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[registrationNumber]]></fieldDescription>
+	</field>
+	<field name="intials" class="java.lang.String">
+		<fieldDescription><![CDATA[intials]]></fieldDescription>
+	</field>
+	<field name="age" class="java.lang.String">
+		<fieldDescription><![CDATA[age]]></fieldDescription>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<fieldDescription><![CDATA[gender]]></fieldDescription>
+	</field>
+	<field name="imageLocation" class="java.lang.String">
+		<fieldDescription><![CDATA[imageLocation]]></fieldDescription>
+	</field>
+	<field name="screeningActivityDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[screeningActivityDate]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="38" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="9" y="10" width="535" height="28" forecolor="#FFFFFF" backcolor="#E8E8E8" uuid="1ab15f2a-684c-4f26-a01e-3f356e47e233"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="10" width="535" height="28" uuid="68e40667-97d2-433e-81ef-1dec5c9e7032"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SCREENING ACTIVITY FORM]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="142" splitType="Stretch">
+			<staticText>
+				<reportElement x="145" y="20" width="48" height="25" uuid="7f79ad99-0e3f-4259-9d73-2d52a79350e2"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Reg No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="145" y="58" width="48" height="25" uuid="9ef20895-8512-4982-a673-777318f23bc1"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Initials]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="145" y="94" width="48" height="25" uuid="846b243d-a00e-419d-866b-f8049232f806"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="20" width="48" height="25" uuid="410b27af-36f4-4ce1-ad31-576ab4b58fc2"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Sex]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="58" width="48" height="25" uuid="c81f4c0d-9d72-489f-b556-25d49b902630"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="94" width="48" height="25" uuid="00bccd3b-c56f-4c88-80ba-432c77e9fae7"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Done By]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="193" y="20" width="100" height="25" uuid="2212855e-a110-440f-a9c6-9c378d926b02">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2b2c6e78-d30b-4eb4-923a-18da3a9763dd"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":   " + $F{registrationNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="193" y="58" width="100" height="25" uuid="42b1b45a-a8ca-493b-a73e-d5076ab727fa">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="076212ba-5c51-4f15-8497-5390cee3ac88"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":   " + $F{intials}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="193" y="94" width="100" height="25" uuid="77c337b1-3829-4d77-9090-1934a2d1e616">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8ae9ead2-598f-458e-a956-e018fb1b776b"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":   " + ($F{age}==null ? "" : $F{age})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="378" y="20" width="100" height="25" uuid="7382f89a-f8c9-4335-a40d-9e63f59f70b3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4497e0ac-5fcf-454b-9cf9-78e1ec3a44a3"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":   " + $F{gender}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement positionType="FixRelativeToBottom" x="11" y="10" width="119" height="124" uuid="fe1927c6-2c8e-4c02-9d2b-9ab20e86a4c3"/>
+				<imageExpression><![CDATA[$F{imageLocation}]]></imageExpression>
+			</image>
+			<textField pattern="dd-MMM-yyyy">
+				<reportElement x="378" y="58" width="100" height="25" uuid="3ad9469b-16b4-4ca2-aff8-690478e22bc8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f0919fd0-0dc8-494e-a6ab-7013eabeae14"/>
+				</reportElement>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":   " + $F{screeningActivityDate}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="144">
+			<rectangle>
+				<reportElement x="10" y="14" width="535" height="130" uuid="4e931133-43a0-4921-9bc2-215f752350a0"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="rgba(0, 0, 0, 0.0)"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="15" width="533" height="20" forecolor="#FFFFFF" backcolor="#E8E8E8" uuid="21b5fc00-66b9-43ab-8520-9bbf21212db2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="15" width="533" height="20" uuid="fb4c1a24-f0fa-4e8f-9065-a729eb1b9cf4"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ECG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="118" width="94" height="25" uuid="0da37fb9-edd0-438f-9491-36bc12a21db0"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Done By (Sign & Date)]]></text>
+			</staticText>
+		</band>
+		<band height="144">
+			<rectangle>
+				<reportElement x="10" y="14" width="535" height="130" uuid="098b2f19-3053-42d3-bba5-f3ba2830fc3a"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="rgba(0, 0, 0, 0.0)"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="15" width="533" height="20" forecolor="#FFFFFF" backcolor="#E8E8E8" uuid="4c0688b3-3840-42cb-bd38-b70c6b72d9c8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="15" width="533" height="20" uuid="8cf38c4d-8133-4f3a-8966-807e190f1f6c"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Medical Examination]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="118" width="94" height="25" uuid="65361188-be1a-495b-a64a-236246400079"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Done By (Sign & Date)]]></text>
+			</staticText>
+		</band>
+		<band height="144">
+			<rectangle>
+				<reportElement x="10" y="14" width="535" height="130" uuid="dd4ea472-1673-48ee-9045-724ed093d324"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="rgba(0, 0, 0, 0.0)"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="15" width="533" height="20" forecolor="#FFFFFF" backcolor="#E8E8E8" uuid="6d313157-ab26-4354-bd00-a3d8ef06583c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="15" width="533" height="20" uuid="12cde301-81d6-4e97-8c30-1a9dfb5be9b6"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sample Collections]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="118" width="94" height="25" uuid="5825a130-c05a-4144-ab06-9590f4bbad48"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Done By (Sign & Date)]]></text>
+			</staticText>
+		</band>
+		<band height="144">
+			<rectangle>
+				<reportElement x="10" y="14" width="535" height="130" uuid="b19a8ce0-6391-44b5-9b45-114dcf5f69c3"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="rgba(0, 0, 0, 0.0)"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="11" y="15" width="533" height="20" forecolor="#FFFFFF" backcolor="#E8E8E8" uuid="37b49ddf-f53e-48b3-961e-291e45f7dbe1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="15" width="533" height="20" uuid="e420a89c-8d25-40e5-9cff-35e26a415ac0"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[X-Ray]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="118" width="94" height="25" uuid="25658c46-cbfd-4dfc-b8d1-fa49fba2514f"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Done By (Sign & Date)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="118" width="94" height="25" uuid="d901cbac-0590-4c09-9f3a-ec483020c204"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Report Generated By :]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

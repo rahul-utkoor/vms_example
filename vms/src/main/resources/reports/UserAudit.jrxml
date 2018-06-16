@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="AuditResults" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="e5f7e6d6-01ab-4a9e-979d-b24e61df9184">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="lastLogout" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[lastLogout]]></fieldDescription>
+	</field>
+	<field name="centerId" class="java.lang.Long">
+		<fieldDescription><![CDATA[centerId]]></fieldDescription>
+	</field>
+	<field name="lastLogin" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[lastLogin]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="userName" class="java.lang.String">
+		<fieldDescription><![CDATA[userName]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="25" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="539" height="25" uuid="54786f5e-4336-426c-847d-f935a36a8458"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[User Audit]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="25" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="539" height="25" forecolor="#FFFFFF" backcolor="#E8E8E8" uuid="ead7dcf0-a5cf-4728-aff1-a67344e7f72c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="150" height="25" uuid="ddc3096b-ddf5-4bf8-8f09-4bceaaf13a3f"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[User Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="0" width="119" height="25" uuid="0dffd3db-9974-428f-ae8d-ae843647880e"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Center ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="269" y="0" width="140" height="25" uuid="c56fd8a9-1492-47b9-b262-98ab5c5b9f8e"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Login Date and Time]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="409" y="0" width="130" height="25" uuid="d50bdbb5-95fa-45e6-9953-a24b874da8c6"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Logout Date and Time]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="25" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="150" height="25" uuid="8af74b87-e883-45c8-ae28-2423e01c9d91">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="10b61914-dd82-477c-9158-373094012e3b"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{userName}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="150" y="0" width="119" height="25" uuid="bc8b174d-16b7-4023-bd7a-6ae26c8188e4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dc9d3a17-4baa-4866-a398-eb7e901913c2"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{centerId}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd-MMM-yyyy h:mm a" isBlankWhenNull="true">
+				<reportElement x="269" y="0" width="140" height="25" uuid="cec263ae-3663-45c5-a02b-eeab63ad40a3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3047df50-fd6c-4c78-b590-ad70ea38a99f"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{lastLogin}==null)? "-" :$F{lastLogin}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd-MMM-yyyy h:mm a" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="409" y="0" width="130" height="25" uuid="af9a556f-4c95-41b8-872c-e0d2008d1079">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ca9c5347-26d4-4808-8701-822f1bb79f95"/>
+				</reportElement>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{lastLogout} ==null) ? "-": $F{lastLogout}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

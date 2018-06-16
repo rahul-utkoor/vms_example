@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 2" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="504d3128-c421-430a-bae6-9c259fe4eecf">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="maritalStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[maritalStatus]]></fieldDescription>
+	</field>
+	<field name="volunteerRegNum" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="childrenCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[childrenCount]]></fieldDescription>
+	</field>
+	<field name="smokerDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[smokerDetails]]></fieldDescription>
+	</field>
+	<field name="dateOfStopping" class="java.lang.String">
+		<fieldDescription><![CDATA[dateOfStopping]]></fieldDescription>
+	</field>
+	<field name="noOfCigarPerDay" class="java.lang.Double">
+		<fieldDescription><![CDATA[noOfCigarPerDay]]></fieldDescription>
+	</field>
+	<field name="allergies" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[allergies]]></fieldDescription>
+	</field>
+	<field name="dateOfLastConsumption" class="java.lang.String">
+		<fieldDescription><![CDATA[dateOfLastConsumption]]></fieldDescription>
+	</field>
+	<field name="noOfUnitsPerDay" class="java.lang.Integer">
+		<fieldDescription><![CDATA[noOfUnitsPerDay]]></fieldDescription>
+	</field>
+	<field name="tobaccoStoppedDate" class="java.lang.String">
+		<fieldDescription><![CDATA[tobaccoStoppedDate]]></fieldDescription>
+	</field>
+	<field name="drugAbuserDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[drugAbuserDetails]]></fieldDescription>
+	</field>
+	<field name="diffFacedDuringDrugAdmin" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[diffFacedDuringDrugAdmin]]></fieldDescription>
+	</field>
+	<field name="smokeStoppedDuration" class="java.lang.String">
+		<fieldDescription><![CDATA[smokeStoppedDuration]]></fieldDescription>
+	</field>
+	<field name="typeOfDrink" class="java.lang.String">
+		<fieldDescription><![CDATA[typeOfDrink]]></fieldDescription>
+	</field>
+	<field name="diffFacedDuringDrugAdminDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[diffFacedDuringDrugAdminDetails]]></fieldDescription>
+	</field>
+	<field name="alcoholConsumerDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[alcoholConsumerDetails]]></fieldDescription>
+	</field>
+	<field name="chewerDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[chewerDetails]]></fieldDescription>
+	</field>
+	<field name="tobaccoType" class="java.lang.String">
+		<fieldDescription><![CDATA[tobaccoType]]></fieldDescription>
+	</field>
+	<field name="allergyDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[allergyDetails]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="childrenCount_1" class="java.lang.Integer">
+		<fieldDescription><![CDATA[childrenCount]]></fieldDescription>
+	</field>
+	<field name="drugDuration" class="java.lang.String">
+		<fieldDescription><![CDATA[drugDuration]]></fieldDescription>
+	</field>
+	<field name="allergyDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[allergyDate]]></fieldDescription>
+	</field>
+	<field name="updatedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[updatedBy]]></fieldDescription>
+	</field>
+	<field name="created" class="java.util.Date">
+		<fieldDescription><![CDATA[created]]></fieldDescription>
+	</field>
+	<field name="volunteerRegNum_1" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="appetiteDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[appetiteDetails]]></fieldDescription>
+	</field>
+	<field name="center" class="com.aizant.vms.model.StudyCenter">
+		<fieldDescription><![CDATA[center]]></fieldDescription>
+	</field>
+	<field name="substaanceOfAbuse" class="java.lang.String">
+		<fieldDescription><![CDATA[substaanceOfAbuse]]></fieldDescription>
+	</field>
+	<field name="allergyType" class="java.lang.String">
+		<fieldDescription><![CDATA[allergyType]]></fieldDescription>
+	</field>
+	<field name="onSpecialDiet" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[onSpecialDiet]]></fieldDescription>
+	</field>
+	<field name="reviewedBy" class="java.lang.Long">
+		<fieldDescription><![CDATA[reviewedBy]]></fieldDescription>
+	</field>
+	<field name="smokerDetails_1" class="java.lang.String">
+		<fieldDescription><![CDATA[smokerDetails]]></fieldDescription>
+	</field>
+	<field name="studySpecificAllergy" class="java.lang.String">
+		<fieldDescription><![CDATA[studySpecificAllergy]]></fieldDescription>
+	</field>
+	<field name="recordedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedBy]]></fieldDescription>
+	</field>
+	<field name="reviewedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[reviewedOn]]></fieldDescription>
+	</field>
+	<field name="specailDietDetails" class="java.lang.String">
+		<fieldDescription><![CDATA[specailDietDetails]]></fieldDescription>
+	</field>
+	<field name="alcoholConsumerType" class="java.lang.String">
+		<fieldDescription><![CDATA[alcoholConsumerType]]></fieldDescription>
+	</field>
+	<field name="allergySymtoms" class="java.lang.String">
+		<fieldDescription><![CDATA[allergySymtoms]]></fieldDescription>
+	</field>
+	<field name="createdBy" class="java.lang.String">
+		<fieldDescription><![CDATA[createdBy]]></fieldDescription>
+	</field>
+	<field name="dateOfStopping_1" class="java.lang.String">
+		<fieldDescription><![CDATA[dateOfStopping]]></fieldDescription>
+	</field>
+	<field name="noOfCigarPerDay_1" class="java.lang.Double">
+		<fieldDescription><![CDATA[noOfCigarPerDay]]></fieldDescription>
+	</field>
+	<field name="reviewedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[reviewedOnDate]]></fieldDescription>
+	</field>
+	<field name="recordedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedOnDate]]></fieldDescription>
+	</field>
+	<field name="tobaccoStoppedDuration" class="java.lang.String">
+		<fieldDescription><![CDATA[tobaccoStoppedDuration]]></fieldDescription>
+	</field>
+	<field name="appetite" class="java.lang.String">
+		<fieldDescription><![CDATA[appetite]]></fieldDescription>
+	</field>
+	<field name="recordedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[recordedOn]]></fieldDescription>
+	</field>
+	<field name="drugStoppedDate" class="java.lang.String">
+		<fieldDescription><![CDATA[drugStoppedDate]]></fieldDescription>
+	</field>
+	<field name="updated" class="java.util.Date">
+		<fieldDescription><![CDATA[updated]]></fieldDescription>
+	</field>
+	<field name="maritalStatus_1" class="java.lang.String">
+		<fieldDescription><![CDATA[maritalStatus]]></fieldDescription>
+	</field>
+	<field name="allergicToDrug" class="java.lang.String">
+		<fieldDescription><![CDATA[allergicToDrug]]></fieldDescription>
+	</field>
+	<field name="sopNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[sopNumber]]></fieldDescription>
+	</field>
+	<field name="formNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[formNumber]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="127">
+			<staticText>
+				<reportElement x="0" y="30" width="539" height="30" uuid="10dbe80d-9693-45fb-b2be-222e5fe35b2a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[MEDICAL SCREENING RECORD FOR VOLUNTEERS]]></text>
+			</staticText>
+			<image>
+				<reportElement x="422" y="0" width="117" height="30" uuid="de403de2-4440-4649-a138-de440f118854"/>
+				<imageExpression><![CDATA["images/AIZlogo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement key="" x="0" y="0" width="422" height="30" uuid="60cea025-5e08-4a62-ae16-e2fae74bf742"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="60" width="189" height="25" uuid="a5fee141-afca-4496-80f6-e9b44533ddf2"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Form No.: " + $F{formNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="60" width="159" height="25" uuid="65fabc9d-d364-4dd2-91c0-c0d586f4e59d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reference SOP No. : " + $F{sopNumber}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="85" width="189" height="25" uuid="1b9495e7-6b67-4ec6-a36f-b3f91fce2171"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="85" width="189" height="25" uuid="1cec43fd-7813-418e-bf3f-824e43aea999"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reg. No. : " +$F{volunteerRegNum}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="110" width="539" height="16" uuid="77b78075-ade4-4f44-b1cb-bf8113d5fb0d"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="126" width="539" height="1" uuid="7bf35a7c-e095-4b21-bbf5-42fab8362d8d"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+		</band>
+		<band height="659" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="91" width="539" height="76" uuid="d33f323c-6aea-4196-a912-a1de34cf91d4"/>
+			</rectangle>
+			<line>
+				<reportElement x="163" y="91" width="1" height="76" uuid="d0a735b8-abe9-4c90-b2c3-df9fea456b79"/>
+			</line>
+			<line>
+				<reportElement x="0" y="116" width="539" height="1" uuid="cddd7bf4-28bd-453f-8940-ff6773bb12d4"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="91" width="163" height="25" uuid="7bfbb747-ce47-47a8-99d7-0aedcaff0556"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="117" width="163" height="16" uuid="1eb8bc96-fccf-4210-8c7d-71fae10d41c7"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[No. of cigarettes per day]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="134" width="163" height="16" uuid="a62a28aa-ebb2-4d47-abef-e692e1c9bbf0"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Duration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="151" width="163" height="16" uuid="5385a819-5fe4-4aa8-bc4f-986d139cbf4c"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of stopping]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="539" height="25" uuid="de193a18-ee18-469d-83fa-107f02a0b663"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4. PERSONAL HISTORY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="25" width="112" height="25" uuid="650d5e47-6ee2-44d4-a5fa-73d4b2694fd6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[a. Marital Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="313" y="25" width="112" height="25" uuid="8fef7f74-7a64-4a61-a59f-6df8f95da91e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[b. Children (if any)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="50" width="112" height="25" uuid="861d055f-1ba5-4c49-b605-4c62ecead06f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[c. Smoking History]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="164" y="91" width="375" height="25" uuid="c14d955a-9594-45bc-9f32-29a0db7fa02f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Current smoker / Ex-smoker]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="229" width="539" height="76" uuid="672f1f9a-ed45-4585-bb09-a90fd0a6d9c2"/>
+			</rectangle>
+			<line>
+				<reportElement x="162" y="229" width="1" height="76" uuid="232eeec7-e5b5-481c-a887-84c8e53c5dc0"/>
+			</line>
+			<line>
+				<reportElement x="0" y="254" width="539" height="1" uuid="2a8712b7-10ee-481b-85a6-0abf9006c020"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="229" width="162" height="25" uuid="239e362e-e43d-4725-893c-a83fe48a6f44"/>
+				<box topPadding="0" leftPadding="4" bottomPadding="0" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="255" width="162" height="16" uuid="7aeea886-cb07-49c8-838c-eac9e773502b"/>
+				<box topPadding="0" leftPadding="4" bottomPadding="0" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="272" width="162" height="16" uuid="4c9dcb31-7e95-4f56-b152-233b5fd4eb76"/>
+				<box topPadding="0" leftPadding="4" bottomPadding="0" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Duration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="289" width="162" height="16" uuid="3cddbe74-6f38-4eea-923b-5aaab7e51a2c"/>
+				<box topPadding="0" leftPadding="4" bottomPadding="0" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of stopping]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="179" width="166" height="25" uuid="21694198-46d2-44f4-91ae-855e3a340da0"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[d. History of Tobacco Chewing :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="396" y="179" width="143" height="25" uuid="1f167605-df2b-496c-b648-55aa7e279cda"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="163" y="229" width="376" height="25" uuid="bc64d0d8-20b7-4d41-a628-793956603acc"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Current chewer / Ex-chewer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="204" width="166" height="25" uuid="f9462e09-3621-4143-8eda-0b66a0fdc041"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If Yes, Please specify:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="367" width="539" height="107" uuid="0f936173-76e2-4bde-bd1b-40a303775267"/>
+			</rectangle>
+			<line>
+				<reportElement x="162" y="367" width="1" height="107" uuid="46518b30-3556-495f-8ce9-0faad73104b1"/>
+			</line>
+			<line>
+				<reportElement x="0" y="392" width="539" height="1" uuid="f1edd4e7-c218-48e1-9825-6b22f9203d8a"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="367" width="162" height="25" uuid="a390bf12-3302-4a68-a344-809688a449d0"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="393" width="162" height="16" uuid="52f02dd8-0d08-4192-a8d0-9b257326967b"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Regular / Occasional]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="410" width="162" height="30" uuid="a9767367-4b99-40b2-af8c-0709ecc54473"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[No. of units per day
+(1unit=60mL)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="441" width="162" height="16" uuid="b277d87a-503f-4801-8a5e-cfeaaee93b87"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Type of Drink]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="317" width="232" height="25" uuid="28afaeff-301c-434d-b791-89ad1e0bc5dc"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[e. History of Alcohol Consumption :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="396" y="317" width="143" height="25" uuid="6f88b3b0-1b36-43bd-9350-dd53e0bc87f3"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="163" y="367" width="376" height="25" uuid="1a54f6c6-3814-4e6d-bb91-0e2ec816f88e"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Current Consuming / Previously Consumed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="342" width="539" height="25" uuid="8557cc55-3430-4d2a-8ba6-113b9bcf6fb3"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If Yes, Please specify:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="458" width="162" height="16" uuid="f24dcd41-4fa5-42a7-b192-dd2e451f3515"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of last Consumption]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="578" width="539" height="76" uuid="eede06e0-8869-4a1d-8070-6cd9560bbf5e"/>
+			</rectangle>
+			<line>
+				<reportElement x="163" y="578" width="1" height="76" uuid="19909fbe-1b80-49d7-99ae-66b9eafb0735"/>
+			</line>
+			<line>
+				<reportElement x="0" y="603" width="539" height="1" uuid="3bed18f8-f94a-43a3-9023-cc88b4650332"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="578" width="163" height="25" uuid="bca4889c-f03e-4147-a242-2e6a2e07338e"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="604" width="163" height="16" uuid="8f9bcd34-bc8b-40eb-bd22-04f01b677e37"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Substance of Abuse]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="621" width="163" height="16" uuid="b6669242-5c2a-466c-8d4c-b0f420e33b47"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Duration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="638" width="163" height="16" uuid="2dbbfb5f-af3f-4c07-a2ce-709b1a172229"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Date of stopping]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="486" width="192" height="25" uuid="8c0dc1a7-bf61-4e5a-9f55-16281f44b946"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[f. History of Drug Abuse :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="396" y="486" width="143" height="25" uuid="9cba12cf-0267-43bb-b6b6-889483163b51"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="164" y="578" width="375" height="25" uuid="3188acb2-c21b-42db-96ab-12bfd97d1feb"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Current Consuming / Previously Consumed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="553" width="539" height="25" uuid="388735ee-eb7d-4530-872e-ebcdbe693c09"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If Yes, Please specify:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="523" width="539" height="30" uuid="99533072-bcd0-42fd-86f8-57305d147660"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[[Cannabinoids (Marijuana/Tetra Hydro Cannabinols), Cocaine, Opiates/Morphine, Amphetamine, Barbiturates and Benzodiazepines etc]]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="658" width="539" height="1" uuid="8a6e00e3-c0a9-42d2-be62-40a3f8de3e1d"/>
+			</break>
+			<textField>
+				<reportElement x="112" y="25" width="88" height="25" uuid="e33cdecd-f105-48ec-8e6f-9921f8a2e45c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[": " + $F{maritalStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="425" y="25" width="114" height="25" uuid="a66f8edd-fc73-437c-bc9b-9a55d34e5f0a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[": " + $F{childrenCount}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="133" width="539" height="1" uuid="2b2b7d8a-f20d-4bab-ba8e-fd337cf43175"/>
+			</line>
+			<line>
+				<reportElement x="0" y="150" width="539" height="1" uuid="a01f8d22-477f-4169-b10b-03bf90ea028a"/>
+			</line>
+			<textField pattern="0">
+				<reportElement x="164" y="117" width="375" height="16" uuid="b7c44f8f-9495-4e89-a9b5-8b8638e9f862"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{noOfCigarPerDay}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="163" y="289" width="376" height="16" uuid="84876c13-9f9e-448c-94a9-7a4c90468fec"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tobaccoStoppedDate}.isEmpty() ? "NA" : $F{tobaccoStoppedDate}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="163" y="255" width="376" height="16" uuid="c514a6b3-0fec-48f8-bc53-97df7b77caf6"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tobaccoType}.isEmpty() ? "NA" : $F{tobaccoType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="134" width="375" height="16" uuid="8d2672da-157e-437b-90bc-2edb030bc255"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{smokeStoppedDuration}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="396" y="179" width="143" height="25" uuid="bc179102-dfb4-442a-920c-4f88b6bd9665"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{chewerDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="272" width="376" height="16" uuid="1f964cee-7c26-4e72-9663-d1a05b10c31c"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tobaccoStoppedDuration}.isEmpty() ? "NA" : $F{tobaccoStoppedDuration}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="151" width="375" height="16" uuid="0c74ccab-5e38-4795-9929-da053f5cd7a5"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dateOfStopping}.isEmpty() ? "NA" : $F{dateOfStopping}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="271" width="539" height="1" uuid="5cbd7fc0-1b93-41d0-adcf-5022ede4695f"/>
+			</line>
+			<line>
+				<reportElement x="0" y="288" width="539" height="1" uuid="62cbc349-1923-4dda-8694-80e43a80ab6a"/>
+			</line>
+			<line>
+				<reportElement x="0" y="409" width="539" height="1" uuid="bd2525a2-06d4-4d8b-928f-3ca9095aa95c"/>
+			</line>
+			<line>
+				<reportElement x="0" y="440" width="539" height="1" uuid="20df3c51-25e6-4c99-bef5-b9c6a9dc999a"/>
+			</line>
+			<line>
+				<reportElement x="0" y="457" width="539" height="1" uuid="2cf7c2da-c580-4317-ae06-1b986a7e7ec5"/>
+			</line>
+			<line>
+				<reportElement x="0" y="620" width="539" height="1" uuid="86de55f2-a635-4ffa-9315-9829bc1f6472"/>
+			</line>
+			<line>
+				<reportElement x="0" y="637" width="539" height="1" uuid="dcc74156-c78d-497d-8e66-89fef51246ec"/>
+			</line>
+			<textField>
+				<reportElement x="396" y="317" width="143" height="25" uuid="7419472a-4dc4-49a3-896a-514efb818639"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{alcoholConsumerDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="393" width="376" height="16" uuid="498f6fe2-2ff6-4319-9e4a-a28bfb1a1a71"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{alcoholConsumerType}.isEmpty() ? "NA" : $F{alcoholConsumerType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="163" y="410" width="376" height="30" uuid="c1682d51-41f0-4b39-980d-58fe4ba02bd3"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{noOfUnitsPerDay}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="441" width="376" height="16" uuid="96cea481-bca2-4be1-96fb-0bb67242cc74"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{typeOfDrink}.isEmpty() ? "NA" : $F{typeOfDrink}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="458" width="376" height="16" uuid="2f25e847-1e72-49a4-8500-9d5b2d763112"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dateOfLastConsumption}.isEmpty() ? "NA" : $F{dateOfLastConsumption}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="396" y="486" width="143" height="25" uuid="6bb27999-6816-4944-8bd9-472c4f15a20f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{drugAbuserDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="604" width="375" height="16" uuid="8e47db7a-d100-4278-836f-bdaeacfca6b1"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{substaanceOfAbuse}.isEmpty() ? "NA" : $F{substaanceOfAbuse}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="621" width="375" height="16" uuid="4267749f-b83d-44cc-b902-5c9f2c9622c2"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{drugDuration}.isEmpty() ? "NA" : $F{drugDuration}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="638" width="375" height="16" uuid="37daac41-8b1d-4718-b9de-faf14dd92cbd"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{drugStoppedDate}.isEmpty() ? "NA" : $F{drugStoppedDate}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="167" width="539" height="12" uuid="73b59897-9b39-40c3-9d3e-93832f588a87"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="305" width="539" height="12" uuid="cadea7fe-412c-49dd-9ac1-fa2cd1325ab8"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="474" width="539" height="12" uuid="01aef05e-cdd7-4d60-a06d-5a187b9828be"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="511" width="539" height="12" uuid="4d312f6f-e06e-4739-af53-ab532b1bd88f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="396" y="49" width="143" height="25" uuid="02968d73-9f95-4849-ae97-d9dbecc88f9e"/>
+			</rectangle>
+			<textField>
+				<reportElement x="396" y="49" width="143" height="25" uuid="984b5748-63dc-4da0-917e-73e514f63939"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{smokerDetails}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="" x="0" y="74" width="539" height="17" uuid="0b82a012-0d97-4f71-b7a2-1f7015cac903"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+		<band height="483">
+			<rectangle>
+				<reportElement x="0" y="50" width="539" height="48" uuid="0b281966-9399-4837-83a8-0483936bd778"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="192" height="25" uuid="4c78d25c-2236-4f0b-bc26-e55b538321a8"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[g. Appetite :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="401" y="0" width="138" height="25" uuid="c1a96cd9-6579-4f36-aa67-1965b34822b6"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="25" width="539" height="25" uuid="d125c011-480e-4f51-bab6-9545959711ac"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If abnormal specify details:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="160" width="539" height="48" uuid="79631331-cbda-44c1-a4b9-b3eec011678d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="110" width="192" height="25" uuid="dc3f801a-5960-4aa4-8e46-6fb9b14eb331"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[h. Any special diet being taken :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="401" y="110" width="138" height="25" uuid="ae8873b6-ee13-4d4f-9872-b5cdc72d1414"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="135" width="539" height="25" uuid="777a0a71-29fd-4806-8554-6a4f2aba666f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, specify details:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="192" height="25" uuid="3108d81f-eebe-42b7-a733-b696cf21fb56"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[i. History of allergies :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="401" y="220" width="138" height="25" uuid="9c613f19-cd97-487a-877a-5208b479be98"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="338" width="401" height="25" uuid="75a083dd-0219-4c21-91d9-d61794ee8bb4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[j. History of difficulty faced during adminstration of drug :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="401" y="338" width="138" height="25" uuid="6a159bc2-c5bd-4f61-9ac6-18239ccbe29a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="363" width="539" height="33" uuid="3eba0da5-6cd8-43aa-8894-7505c7471b1b"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Any difficulty faced in ingestion of tablets, capsules, medicated liquids and any other oral dosage forms or in receiving injectable medicatons through I.V, I.M, S.C etc., or in receiving transdermal medications etc.,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="408" width="112" height="25" uuid="e9ef3fdf-d0cc-4b8a-b166-abbb1156053e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, specify details]]></text>
+			</staticText>
+			<line>
+				<reportElement x="112" y="432" width="250" height="1" uuid="00e7f9d0-e3fc-4d2d-8205-88839d85ac99"/>
+			</line>
+			<rectangle>
+				<reportElement x="0" y="458" width="337" height="25" uuid="605f04a7-8b4d-48aa-8882-a4a15e6d5e67"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="458" width="161" height="25" uuid="4834560d-4b8c-4b3b-bd7c-acfa41e22f7b"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Recorded by (Sign & date)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="161" y="458" width="1" height="25" uuid="39cc3369-b519-44d1-b958-77f49504917d"/>
+			</line>
+			<textField>
+				<reportElement x="401" y="0" width="138" height="25" uuid="36a6317c-ec03-43a4-85fd-99a9fc5edfd7"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{appetite}.isEmpty() ? "NA" : $F{appetite}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="50" width="539" height="48" uuid="90ff682d-de5f-46b4-9da9-25e2490b7f80"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{appetiteDetails}.isEmpty() ? "NA" : $F{appetiteDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="401" y="110" width="138" height="25" uuid="8127d398-8dad-4cfd-ac19-ab579a507972"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{onSpecialDiet} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="401" y="220" width="138" height="25" uuid="1e9abaf0-0988-479f-be2b-1ab2b3419d48"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{allergies} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="112" y="408" width="250" height="25" uuid="151f9518-2cc7-424d-8eae-45f4233d793a"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{diffFacedDuringDrugAdminDetails}.isEmpty() ? "NA" : $F{diffFacedDuringDrugAdminDetails}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="401" y="338" width="138" height="25" uuid="63060c15-be25-427c-81fe-7854d915a037"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{diffFacedDuringDrugAdmin} ? "Yes":"No"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="162" y="458" width="175" height="25" uuid="6c941f7b-d283-4c5a-8e83-1905bfe7bf2b"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{recordedBy}==null)? "NA":$F{recordedBy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="160" width="539" height="48" uuid="fc21d016-5c08-4f3e-bdb1-9998c4e92e91"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{specailDietDetails}.isEmpty() ? "NA" : $F{specailDietDetails}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="98" width="539" height="12" uuid="360c4f43-ccfe-4ce8-a470-bfa039d61385"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="208" width="539" height="12" uuid="ec3cfbd8-5a55-4d82-83c8-5dd57511378a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="245" width="539" height="12" uuid="fef675d3-14a9-4fc8-9c51-7ea77de1a6f0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="396" width="539" height="12" uuid="f715ff40-39b9-43bd-8b1b-6b5f2d512315"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="362" y="408" width="177" height="25" uuid="e6ecc53d-0c66-4094-8f6c-b4c02766e0ad"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="433" width="539" height="25" uuid="3a600e65-41d3-4d43-b9d2-78b0d497e787"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="337" y="458" width="202" height="25" uuid="007278ca-c134-42bf-9ac4-572dc90b455c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="257" width="200" height="18" uuid="95d5215d-5761-4ddd-9423-773e1d79e2f0"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[If yes, please specify the type of allergy,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="298" width="320" height="32" uuid="889adcf0-ff7a-4f71-8e67-b5aaec2294d2"/>
+				<box topPadding="5" leftPadding="0"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[If yes, in case of study specific screening, the volunteer allergic to]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="316" width="80" height="14" uuid="8bb9b642-9b38-4691-8fff-9eed9c893a10"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[(Drug name)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="278" width="138" height="18" uuid="1f7e5a53-1368-446e-8ba5-4aaa64e3fd1c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[symptoms and date of onset]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="200" y="257" width="339" height="17" uuid="5550af20-98e5-414f-b779-cfcd2e73b018"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{allergyType}.isEmpty() ? "NA" : $F{allergyType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="142" y="279" width="285" height="17" uuid="ccc53466-0bf5-4244-9457-1870cc0241f5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{allergySymtoms}.isEmpty() ? "NA" : $F{allergySymtoms}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="298" width="70" height="17" uuid="de88cf58-5c35-4bff-b42b-fd3b9f5444fb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{studySpecificAllergy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="298" width="80" height="17" uuid="7f79ae54-a71d-43ad-ae75-138b084a5c70"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{allergicToDrug}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="" x="0" y="330" width="539" height="8" uuid="093d3858-df77-492d-9311-534adfaf5e26"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<line>
+				<reportElement x="198" y="274" width="341" height="1" uuid="f2bd36f6-49a0-4716-99bc-3de7169f8180"/>
+			</line>
+			<line>
+				<reportElement x="142" y="296" width="397" height="1" uuid="98383d10-27f3-49f2-bdb2-ff1925277142"/>
+			</line>
+			<line>
+				<reportElement x="410" y="315" width="80" height="1" uuid="41c5eaf2-d471-424e-a971-ad0716f4b7a1"/>
+			</line>
+			<textField pattern="dd-MMM-yyyy">
+				<reportElement x="427" y="279" width="112" height="17" uuid="67246b7c-6d00-4a69-be8f-ab95da4d6113"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{allergyDate}==null)?"NA":$F{allergyDate}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="390" y="298" width="20" height="32" uuid="7d7c744f-daa5-4fc7-87f4-704f9f5b63e0"/>
+				<box topPadding="5" leftPadding="0"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[to]]></text>
+			</staticText>
+			<line>
+				<reportElement x="320" y="315" width="70" height="1" uuid="f5a51f21-e5c5-44fe-89ab-dc7d5249c69c"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

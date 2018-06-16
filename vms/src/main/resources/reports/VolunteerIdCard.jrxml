@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Volunteer ID Card" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" whenResourceMissingType="Empty" uuid="f12c5213-ee14-4fce-87a7-7194c272db40">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.report.description" value=""/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="langSpeak" class="java.lang.String">
+		<fieldDescription><![CDATA[langSpeak]]></fieldDescription>
+	</field>
+	<field name="firstName" class="java.lang.String">
+		<fieldDescription><![CDATA[firstName]]></fieldDescription>
+	</field>
+	<field name="dob" class="java.sql.Date">
+		<fieldDescription><![CDATA[dob]]></fieldDescription>
+	</field>
+	<field name="intials" class="java.lang.String">
+		<fieldDescription><![CDATA[intials]]></fieldDescription>
+	</field>
+	<field name="registrationNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[registrationNumber]]></fieldDescription>
+	</field>
+	<field name="idCardIssuedDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[idCardIssuedDate]]></fieldDescription>
+	</field>
+	<field name="sopNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[sopNumber]]></fieldDescription>
+	</field>
+	<field name="formNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[formNumber]]></fieldDescription>
+	</field>
+	<field name="idCardIssuedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[idCardIssuedBy]]></fieldDescription>
+	</field>
+	<field name="age" class="java.lang.String">
+		<fieldDescription><![CDATA[age]]></fieldDescription>
+	</field>
+	<field name="imageLocation" class="java.lang.String">
+		<fieldDescription><![CDATA[imageLocation]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="266" splitType="Stretch">
+			<rectangle>
+				<reportElement x="76" y="2" width="302" height="264" uuid="14638e7d-131c-428b-8c64-0a96ce60d1b0"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="230" y="239" width="134" height="18" uuid="de714d0a-ebea-4436-b1a3-a963e2d003b6"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Signature of the subject]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="93" y="178" width="118" height="18" uuid="0b0f80a6-6004-4ed5-b5c8-adc450ce0db3"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Reference SOP No :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="380" y="2" width="302" height="264" uuid="e6f221c4-7764-403d-b400-1bc6c02e9676"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="399" y="23" width="98" height="25" uuid="a3670831-2506-4f7e-8eac-846b185d208c"/>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Blood Group]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="399" y="48" width="98" height="25" uuid="57ad7c77-6d9e-4f52-90d4-341c5b141879"/>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="399" y="73" width="98" height="25" uuid="d0a22192-edb0-4665-995e-bd7474c110e9"/>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Initials]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="399" y="98" width="98" height="25" uuid="603e0911-36ff-475d-9d24-f8abf1be4ddb"/>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[D.O.B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="399" y="148" width="98" height="25" uuid="c958eea1-890c-4c6a-be97-7ff46ecffb46"/>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Date of lssue]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="399" y="199" width="94" height="25" uuid="0b8c7a55-69fc-4000-8343-c6f75dd10db0"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[lssued By]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="560" y="199" width="100" height="25" uuid="dc64a382-4e68-463c-a448-f165d1b6d92a"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Verified By]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="399" y="123" width="98" height="25" uuid="5ff2c646-de1e-48e7-959d-6e56ddd4d951"/>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Languages Status]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="497" y="48" width="166" height="25" uuid="e8546fce-c489-4022-b50e-2465833e7e9b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8460b82f-98eb-447f-abb8-0dc11b84b32f"/>
+				</reportElement>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[":   " + $F{firstName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="497" y="73" width="166" height="25" uuid="431ed16e-ba3e-4379-a21a-062c6517842d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3019d591-b403-42c3-bfa1-bda9a1812cc9"/>
+				</reportElement>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[":   " + $F{intials}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd-MMM-yyyy" isBlankWhenNull="true">
+				<reportElement x="497" y="98" width="166" height="25" uuid="20c64f08-adf6-4550-9b1c-04d4fabe658a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0c210376-c6d4-421b-9a8f-caa2a1c5fc00"/>
+				</reportElement>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[":   " + $F{dob}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="497" y="123" width="166" height="25" uuid="beb9426f-d169-46f8-ac4d-e7c86d5b61e5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f88dacd3-a75d-47ef-a19c-7e0ff3db1254"/>
+				</reportElement>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[":   " + $F{langSpeak}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="93" y="221" width="118" height="18" uuid="a1f359d6-a9f9-47c5-97fe-69ae82c78501"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Form No :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="173" y="156" width="109" height="22" uuid="8eba39f6-652b-4848-81c7-f2b7d1ab683a"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{registrationNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="93" y="239" width="118" height="18" uuid="8cfd289e-eda1-4dd4-b630-8bd6ddba96c1"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{formNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="93" y="196" width="118" height="18" uuid="1723620f-65f6-4f18-a965-431e29482b58"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sopNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="497" y="148" width="166" height="25" uuid="cd6f8b52-a6f5-430b-8b3f-47dd573fce82"/>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[":   " + $F{idCardIssuedDate}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="380" y="186" width="302" height="1" uuid="7df100e3-6dec-44b2-a4b0-70d9ebae3a4a"/>
+			</line>
+			<textField>
+				<reportElement x="399" y="224" width="94" height="22" uuid="61b628bb-a1b6-4513-ba15-8a0198c6636b"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{idCardIssuedBy}]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="176" y="52" width="102" height="100" uuid="b1698891-a236-44af-826e-257df590a0b4"/>
+				<imageExpression><![CDATA[$F{imageLocation}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="173" y="19" width="106" height="28" uuid="202ef87e-48fb-4a7b-b073-868917b19082"/>
+				<imageExpression><![CDATA["src/main/resources/images/AIZlogo.png"]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>

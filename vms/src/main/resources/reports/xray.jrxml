@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="X-Ray" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="aff61e59-d88a-4bad-b7db-8daeb6f91e29">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="regNum" class="java.lang.String">
+		<fieldDescription><![CDATA[regNum]]></fieldDescription>
+	</field>
+	<field name="volunteerAge" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerAge]]></fieldDescription>
+	</field>
+	<field name="xrayDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[xrayDate]]></fieldDescription>
+	</field>
+	<field name="volunteerSex" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerSex]]></fieldDescription>
+	</field>
+	<field name="softTissue" class="java.lang.String">
+		<fieldDescription><![CDATA[softTissue]]></fieldDescription>
+	</field>
+	<field name="heartSize" class="java.lang.String">
+		<fieldDescription><![CDATA[heartSize]]></fieldDescription>
+	</field>
+	<field name="lungFields" class="java.lang.String">
+		<fieldDescription><![CDATA[lungFields]]></fieldDescription>
+	</field>
+	<field name="lungFieldsComment" class="java.lang.String">
+		<fieldDescription><![CDATA[lungFieldsComment]]></fieldDescription>
+	</field>
+	<field name="diaphragmDemos" class="java.lang.String">
+		<fieldDescription><![CDATA[diaphragmDemos]]></fieldDescription>
+	</field>
+	<field name="diaphragmDemosComment" class="java.lang.String">
+		<fieldDescription><![CDATA[diaphragmDemosComment]]></fieldDescription>
+	</field>
+	<field name="softTissueComment" class="java.lang.String">
+		<fieldDescription><![CDATA[softTissueComment]]></fieldDescription>
+	</field>
+	<field name="heartSizeComment" class="java.lang.String">
+		<fieldDescription><![CDATA[heartSizeComment]]></fieldDescription>
+	</field>
+	<field name="cpAnglesComment" class="java.lang.String">
+		<fieldDescription><![CDATA[cpAnglesComment]]></fieldDescription>
+	</field>
+	<field name="cpAngles" class="java.lang.String">
+		<fieldDescription><![CDATA[cpAngles]]></fieldDescription>
+	</field>
+	<field name="impressionComment" class="java.lang.String">
+		<fieldDescription><![CDATA[impressionComment]]></fieldDescription>
+	</field>
+	<field name="impression" class="java.lang.String">
+		<fieldDescription><![CDATA[impression]]></fieldDescription>
+	</field>
+	<field name="xrayStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[xrayStatus]]></fieldDescription>
+	</field>
+	<field name="comments" class="java.lang.String">
+		<fieldDescription><![CDATA[comments]]></fieldDescription>
+	</field>
+	<field name="physicianBy" class="java.lang.String">
+		<fieldDescription><![CDATA[physicianBy]]></fieldDescription>
+	</field>
+	<field name="radiologistBy" class="java.lang.String">
+		<fieldDescription><![CDATA[radiologistBy]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="127" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="30" width="539" height="25" uuid="71866817-d4cd-44b5-b45f-a18c71edb68c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[X-RAY]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="126" width="539" height="1" uuid="f2fed26e-dec8-43a3-a0c7-ca63c260987d"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="0" y="69" width="160" height="25" uuid="703e7b56-e5c4-4d23-9aee-1a7a0fbb3749"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reg. No. : "+$F{regNum}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="94" width="160" height="25" uuid="f160e7d2-2226-4973-8d15-01319c72c55d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Age : "+$F{volunteerAge}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="391" y="69" width="148" height="25" uuid="4cb90d3f-ee2e-42f2-8074-73353207d0df"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Date : "+$F{xrayDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="391" y="94" width="148" height="25" uuid="c6dff08c-aa41-43d6-afd7-9ba1ec425e86"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Sex : "+$F{volunteerSex}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="422" height="30" uuid="c1c9b008-1810-4524-9a30-961f30f4d574"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="55" width="539" height="14" uuid="e593eab0-a03d-413a-9b0c-b276a03575e8"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="119" width="539" height="7" uuid="897eed37-51dd-4534-893c-4150340b0472"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="69" width="231" height="50" uuid="c486dac9-5590-4533-bf30-c170e43e2a99"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<image>
+				<reportElement x="422" y="0" width="117" height="30" uuid="9749d5cd-73a9-4157-8787-b0970ade8aa6"/>
+				<imageExpression><![CDATA["images/AIZlogo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="340" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="32" width="539" height="237" uuid="5d344ebd-4472-483c-8155-35945fc05236"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="289" width="539" height="51" uuid="f372390f-c1af-464e-a21f-0744f8720747"/>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="314" width="539" height="1" uuid="13582d76-6b6a-42ac-8a9c-6f347b9b99fb"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="289" width="276" height="25" uuid="47256839-3a7b-4c6c-b866-55fbc1f86beb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Physician by (Sign & Date):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="277" y="289" width="262" height="25" uuid="37539641-9e0c-4db5-b8d6-9ad83431fd2c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Radiologist by (Sign & Date):]]></text>
+			</staticText>
+			<line>
+				<reportElement x="276" y="289" width="1" height="51" uuid="6e75bc1b-4373-41fc-8a1d-d2832cabf1d7"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="214" width="66" height="55" uuid="fecd7fb0-e742-4245-962a-3888db63674f"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comments :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="188" width="176" height="25" uuid="2ece9665-ccbb-4813-b83e-173c7cb67523"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[X-ray]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="32" width="95" height="25" uuid="1ac6e771-31db-4e56-a702-e506792b4b2b"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="58" width="95" height="25" uuid="38818a20-0a21-4c57-9bab-95f488b67e2e"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="110" width="95" height="25" uuid="9bbd610c-e270-491d-aa73-d15e755b3ffb"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comment]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="213" width="539" height="1" uuid="f19c43bd-ff7e-4551-ae1e-9d2519f66b8a"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="32" width="176" height="25" uuid="93e0b0f5-4657-49bd-866f-d80d066ff6c0"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Soft tissue and bony cage]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="7" width="539" height="25" uuid="c48f6518-0807-4c06-915f-2046318fe1fc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CHEST PA VIEW]]></text>
+			</staticText>
+			<line>
+				<reportElement x="269" y="32" width="1" height="181" uuid="2813b424-6ccc-4bd6-a52f-fefa470153c4"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="136" width="176" height="25" uuid="e96e5bb8-b410-4db9-ac22-18011c999860"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[CP angles are]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="136" width="95" height="25" uuid="5cab237a-1c60-42c9-a3b8-fc609119ee52"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="162" width="95" height="25" uuid="8a629b3b-aeba-4c97-9132-9655363f18b2"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="110" width="176" height="25" uuid="496e4dad-72f2-43ca-b5fc-c8dfb436a49a"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Both domes of the diaphragm are]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="162" width="176" height="25" uuid="4af40b1a-4081-44a2-90d1-e5ccde264dda"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Impression]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="84" width="176" height="25" uuid="2bec6c75-4def-40ac-835b-2f0583842789"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Both lungs fields are]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="84" width="95" height="25" uuid="230218fb-3767-457e-afa6-fd3015ff431e"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="58" width="176" height="25" uuid="4a6ad5fc-c751-4590-8887-b843ae62d686"/>
+				<box leftPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Heart size is]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="366" y="32" width="173" height="25" uuid="dd558fca-1cbd-4208-94c0-8923b24285b9"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{softTissueComment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="32" width="92" height="25" uuid="767720f7-aed8-4a6b-827d-68137c4e8aa1"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{softTissue}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="58" width="92" height="25" uuid="068038ae-49f2-4612-867d-c6815e320518"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{heartSize}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="84" width="92" height="25" uuid="6149b0fb-6741-4a7a-be2a-4a63b3aeceaa"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lungFields}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="110" width="92" height="25" uuid="708f89cb-79f9-4f21-b765-e2252cb4eb00"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{diaphragmDemos}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="136" width="92" height="25" uuid="eae83bfe-175c-4f52-95eb-8470ca36dd6c"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cpAngles}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="162" width="92" height="25" uuid="2b66bf08-3385-4397-9ff3-c6a02ca35033"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{impression}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="188" width="92" height="25" uuid="d5f52495-ba03-461c-bd24-07061a95dd03"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{xrayStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="366" y="58" width="173" height="25" uuid="1c789481-69d5-44c2-82f0-2bab8cd0f52c"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{heartSizeComment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="366" y="84" width="173" height="25" uuid="659069bf-596d-4370-99c7-13c026286a46"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lungFieldsComment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="366" y="110" width="173" height="25" uuid="034dcced-3037-42d3-aacc-f37144609d62"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{diaphragmDemosComment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="366" y="136" width="173" height="25" uuid="ad6db21b-c81c-49fb-bf16-531c7ed128fb"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cpAnglesComment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="366" y="162" width="173" height="25" uuid="eae1a28a-4951-4182-a4ce-e26e7fb3289d"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{impressionComment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="66" y="214" width="473" height="55" uuid="efb267a2-8b7c-49c2-931e-196884399639"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="315" width="276" height="25" uuid="793a9d02-7707-4910-a596-990b203da494"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{physicianBy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="277" y="315" width="262" height="25" uuid="60aeb137-fa94-42df-825d-d3b59fe3a4b6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{radiologistBy}==null)?"-":$F{radiologistBy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="539" height="7" uuid="9a88a34c-5db5-4a7c-8f8c-c646967f8289"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="57" width="539" height="1" uuid="57f38360-63f5-4667-8b9d-ebe87230160b"/>
+			</line>
+			<line>
+				<reportElement x="0" y="83" width="539" height="1" uuid="c0146c82-14fe-4d21-9c74-471c2d175b42"/>
+			</line>
+			<line>
+				<reportElement x="0" y="109" width="539" height="1" uuid="5d4b81db-8ea2-4f90-bb7d-40fa7b368bb5"/>
+			</line>
+			<line>
+				<reportElement x="0" y="135" width="539" height="1" uuid="016d8b6d-12c5-4a9c-ba7f-4fb93961073f"/>
+			</line>
+			<line>
+				<reportElement x="0" y="161" width="539" height="1" uuid="5495050e-7c87-432a-95fe-704eca75c1de"/>
+			</line>
+			<line>
+				<reportElement x="0" y="187" width="539" height="1" uuid="a45b265b-75e4-46d8-8a22-185673b7caa3"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="269" width="539" height="20" uuid="3a77734d-a80a-4976-84d2-f496ef19c473"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<line>
+				<reportElement x="365" y="32" width="1" height="181" uuid="e53174c8-57bc-4f43-9afa-3950880fdedb"/>
+			</line>
+			<line>
+				<reportElement x="176" y="32" width="1" height="181" uuid="e417709b-76aa-4fda-abf7-e92ee7106b94"/>
+			</line>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 2" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="504d3128-c421-430a-bae6-9c259fe4eecf">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="volunteerWeight" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerWeight]]></fieldDescription>
+	</field>
+	<field name="volunteerRead" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRead]]></fieldDescription>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<fieldDescription><![CDATA[gender]]></fieldDescription>
+	</field>
+	<field name="dmBmi" class="java.lang.String">
+		<fieldDescription><![CDATA[dmBmi]]></fieldDescription>
+	</field>
+	<field name="noOfDaysCompletedFromLastPartcipation" class="java.lang.Long">
+		<fieldDescription><![CDATA[noOfDaysCompletedFromLastPartcipation]]></fieldDescription>
+	</field>
+	<field name="screeningicfDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[screeningicfDate]]></fieldDescription>
+	</field>
+	<field name="langWriteList" class="java.util.List">
+		<fieldDescription><![CDATA[langWriteList]]></fieldDescription>
+	</field>
+	<field name="proceedForScreening" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[proceedForScreening]]></fieldDescription>
+	</field>
+	<field name="volunteerIntials" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerIntials]]></fieldDescription>
+	</field>
+	<field name="screeningICF" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[screeningICF]]></fieldDescription>
+	</field>
+	<field name="dietStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[dietStatus]]></fieldDescription>
+	</field>
+	<field name="volunteerHeight" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerHeight]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="height" class="java.lang.Float">
+		<fieldDescription><![CDATA[height]]></fieldDescription>
+	</field>
+	<field name="updatedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[updatedBy]]></fieldDescription>
+	</field>
+	<field name="volunteerDiet" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerDiet]]></fieldDescription>
+	</field>
+	<field name="created" class="java.util.Date">
+		<fieldDescription><![CDATA[created]]></fieldDescription>
+	</field>
+	<field name="initials" class="java.lang.String">
+		<fieldDescription><![CDATA[initials]]></fieldDescription>
+	</field>
+	<field name="langRead" class="java.lang.String">
+		<fieldDescription><![CDATA[langRead]]></fieldDescription>
+	</field>
+	<field name="volunteerRegNum" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="center" class="com.aizant.vms.model.StudyCenter">
+		<fieldDescription><![CDATA[center]]></fieldDescription>
+	</field>
+	<field name="historyOfBloodDonationDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[historyOfBloodDonationDate]]></fieldDescription>
+	</field>
+	<field name="weight" class="java.lang.Float">
+		<fieldDescription><![CDATA[weight]]></fieldDescription>
+	</field>
+	<field name="volunteerAge" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerAge]]></fieldDescription>
+	</field>
+	<field name="volunteerBmi" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerBmi]]></fieldDescription>
+	</field>
+	<field name="reviewedBy" class="java.lang.Long">
+		<fieldDescription><![CDATA[reviewedBy]]></fieldDescription>
+	</field>
+	<field name="lastParticipationDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[lastParticipationDate]]></fieldDescription>
+	</field>
+	<field name="dmRace" class="java.lang.String">
+		<fieldDescription><![CDATA[dmRace]]></fieldDescription>
+	</field>
+	<field name="langWrite" class="java.lang.String">
+		<fieldDescription><![CDATA[langWrite]]></fieldDescription>
+	</field>
+	<field name="recordedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedBy]]></fieldDescription>
+	</field>
+	<field name="volunteerWrite" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerWrite]]></fieldDescription>
+	</field>
+	<field name="langReadList" class="java.util.List">
+		<fieldDescription><![CDATA[langReadList]]></fieldDescription>
+	</field>
+	<field name="volunteerGender" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerGender]]></fieldDescription>
+	</field>
+	<field name="reviewedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[reviewedOn]]></fieldDescription>
+	</field>
+	<field name="createdBy" class="java.lang.String">
+		<fieldDescription><![CDATA[createdBy]]></fieldDescription>
+	</field>
+	<field name="reviewedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[reviewedOnDate]]></fieldDescription>
+	</field>
+	<field name="dietList" class="java.util.List">
+		<fieldDescription><![CDATA[dietList]]></fieldDescription>
+	</field>
+	<field name="volunteerRace" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRace]]></fieldDescription>
+	</field>
+	<field name="recordedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedOnDate]]></fieldDescription>
+	</field>
+	<field name="recordedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[recordedOn]]></fieldDescription>
+	</field>
+	<field name="updated" class="java.util.Date">
+		<fieldDescription><![CDATA[updated]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="67" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="18" width="539" height="20" uuid="194c4d10-86f7-49f8-bd0a-fb4b14f05efb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Attachment-6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="44" width="539" height="20" uuid="6b760010-c6aa-4e70-8a26-9c7faeb6e570"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[MEDICAL SCREENING RECORD FOR VOLUNTEERS]]></text>
+			</staticText>
+			<image>
+				<reportElement x="420" y="4" width="117" height="30" uuid="5190d152-51df-48fc-ba94-2c8394d47973"/>
+				<imageExpression><![CDATA["images/AIZlogo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement x="1" y="3" width="92" height="12" uuid="006bb3d5-566e-4287-bea4-c83d91d60671"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Form No.: CPF065/04]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="1" y="18" width="172" height="22" uuid="ad4cbb85-5072-40d6-8ef3-442d5dc133d3"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="336" y="3" width="92" height="12" uuid="61e398f9-f9e4-403c-bec8-e18dd06b7e00"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Reference SOP No. : CP002]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="336" y="18" width="202" height="22" uuid="6701c4c7-b2ba-43dd-813d-a06cfab1791a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="342" y="22" width="98" height="14" uuid="96213e1f-630a-4d43-84da-38a5ee9e54ce"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Volunteer Initials]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="47" width="539" height="1" uuid="8d7dab8d-a899-4fd4-a744-1c5dca196ab0"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="7" y="21" width="46" height="14" uuid="d6e313fb-1c8d-4bd4-ab62-781ac1ceb133"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reg. No.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="61" y="21" width="100" height="14" uuid="35bbcbc8-3544-4597-af0f-5e7dee330379"/>
+				<textFieldExpression><![CDATA[$F{volunteerGender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="442" y="22" width="90" height="14" uuid="3f460564-3ba2-48a7-a0ca-928ce4c864e6"/>
+				<textFieldExpression><![CDATA[$F{volunteerIntials}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="441" splitType="Stretch">
+			<staticText>
+				<reportElement x="9" y="110" width="199" height="18" uuid="c637194c-63ba-45b8-b688-dbf20bcf1dab"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[1. DEMOGRAPHIC PROFILE]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="135" width="528" height="85" uuid="5bd36deb-eafc-4308-b35f-e7e41870e7be"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="21" y="148" width="47" height="18" uuid="b66853f4-5af8-40df-a8d1-b857d8255e93"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Gender]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="140" width="43" height="36" uuid="46121841-b54a-4158-8cb8-d5b7ea8eae73"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Age (Years)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="151" y="141" width="40" height="34" uuid="a9ca0788-43dd-48fb-b279-f2a692eee7f4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Height (Cms)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="204" y="141" width="45" height="34" uuid="93f1e3b0-d10b-4171-9051-72d80c296c86"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Weight (Kgs)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="7" y="180" width="528" height="1" uuid="1c152eb9-814d-4ff0-8b96-f547f64cda56"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="199" y="135" width="1" height="85" uuid="bd3da9d6-55ec-4988-859d-575145061097"/>
+			</line>
+			<staticText>
+				<reportElement x="290" y="151" width="40" height="14" uuid="8bb31558-8310-439d-9493-c01719d46bc1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Race]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="385" y="140" width="76" height="34" uuid="e93cf520-2c41-4387-b379-e022856b72bb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Current dietary status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="480" y="140" width="40" height="34" uuid="e940d73a-a115-4bf9-b5d8-c1907f62c143"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[BMI (kg/m )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="509" y="150" width="7" height="14" uuid="e9adde22-c25a-4dd1-ba03-4ad371dc0ffa"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<line>
+				<reportElement x="143" y="135" width="1" height="85" uuid="6c8bbda6-0da5-47eb-a5ac-7b8290ff984c"/>
+			</line>
+			<line>
+				<reportElement x="86" y="135" width="1" height="85" uuid="131d1748-9185-40db-a1ab-81fa4114179a"/>
+			</line>
+			<rectangle>
+				<reportElement x="7" y="234" width="528" height="132" uuid="83ebfa47-784a-473a-82df-b48ba657a77d"/>
+			</rectangle>
+			<line>
+				<reportElement x="7" y="264" width="528" height="1" uuid="b2732a16-9b82-46c0-a6d7-6741516c89a4"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="7" y="304" width="528" height="1" uuid="9f15398d-ea97-4d55-bafa-b95496973922"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="24" y="241" width="311" height="18" uuid="27a7b67d-46d8-4ade-a6e5-30468a53f3ae"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Volunteer last participation date in a clinical study (at Aizant  )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="24" y="269" width="318" height="18" uuid="0b1b709a-83f4-4e03-ad8c-462c2b67f5ad"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[History of Blood donation/participation in a Clinical Study (Other ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="24" y="284" width="77" height="18" uuid="74173bc5-7e22-47ac-8ff0-20d3f12bb04f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[than Aizant   )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="24" y="310" width="267" height="18" uuid="1aa3fbe4-8703-47d2-8d17-54e7fc395617"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Number of days completed from the last participation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="24" y="342" width="235" height="18" uuid="b82d711a-0ddc-4bc4-9e8d-cacdeade39ad"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Proceed for screening (if it is more than 90 days)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="404" y="234" width="1" height="132" uuid="d32917de-f8d7-4146-add3-b21308def10c"/>
+			</line>
+			<line>
+				<reportElement x="7" y="336" width="528" height="1" uuid="708074ea-7638-48c9-9782-c017c7896076"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="316" y="238" width="8" height="13" uuid="fa4e999f-0844-4323-a147-49b76a170c01"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[®]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="81" y="286" width="8" height="13" uuid="7692d050-f819-414d-a024-2d0b97aa06a9"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[®]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="28" width="528" height="72" uuid="226bc67c-5033-4b46-981b-f8532fec2e94"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="209" y="31" width="136" height="18" uuid="6628c215-1e33-40f6-bfde-53bdc3ad155a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Current Language Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="3" width="131" height="18" uuid="6b9fd209-d133-4dd7-801b-d14377ecaa18"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Screening ICF Obtained]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="364" y="3" width="32" height="18" uuid="acf24a5f-220e-4868-9eae-82423663fb79"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<line>
+				<reportElement x="7" y="48" width="528" height="1" uuid="683fea40-eb47-41a7-bca8-08b6cf9ca89f"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="13" y="54" width="55" height="18" uuid="7eb61337-7edb-439c-9d82-ea9740a27374"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Read]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="80" width="55" height="18" uuid="e0249f27-6d23-4154-9d51-810843888fe9"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Write]]></text>
+			</staticText>
+			<line>
+				<reportElement x="7" y="74" width="528" height="1" uuid="88fead6a-ae24-43e6-b262-7220c9c79456"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="78" y="48" width="1" height="52" uuid="f112f5c2-7401-4759-b2e4-cd54af8d2e3c"/>
+			</line>
+			<line>
+				<reportElement x="253" y="135" width="1" height="85" uuid="d55e837b-9ba7-4ba6-8e1f-4e903a176a6d"/>
+			</line>
+			<line>
+				<reportElement x="372" y="135" width="1" height="85" uuid="212cb77e-fbaf-4e6b-ad51-28ee09652194"/>
+			</line>
+			<line>
+				<reportElement x="473" y="135" width="1" height="85" uuid="8a278f14-b79a-4eb5-8c3a-cfdcede72020"/>
+			</line>
+			<rectangle>
+				<reportElement x="7" y="376" width="528" height="35" uuid="f72810c4-b5ad-4d95-ad81-6bc175ebfe0a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="15" y="386" width="199" height="14" uuid="bd7b4f52-96de-446c-8a78-d322610a1912"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Recorded by (Sign & date)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="249" y="376" width="1" height="35" uuid="bddbabb5-5d14-4407-b058-6f561d200fce"/>
+			</line>
+			<textField>
+				<reportElement x="144" y="5" width="100" height="14" uuid="4b5195ac-e5ca-4bb7-8d34-46d3886ee618"/>
+				<textFieldExpression><![CDATA[$F{screeningICF}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="399" y="6" width="100" height="14" uuid="32691fec-33b4-4127-9cdc-ece8f28b55f5"/>
+				<textFieldExpression><![CDATA[$F{screeningicfDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="81" width="334" height="14" uuid="fa7694b5-ef21-4821-a40b-8abff862e826"/>
+				<textFieldExpression><![CDATA[$F{langWriteList}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="56" width="334" height="14" uuid="50f5b215-0d77-44ae-8816-598211ad8221"/>
+				<textFieldExpression><![CDATA[$F{langRead}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="21" y="185" width="56" height="30" uuid="13a01fc2-3b87-4695-858a-1b0d27c09e00"/>
+				<textFieldExpression><![CDATA[$F{volunteerGender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="91" y="185" width="48" height="32" uuid="2bbd68cd-d8ec-4043-877d-eba25a24ca3d"/>
+				<textFieldExpression><![CDATA[$F{volunteerAge}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="152" y="185" width="38" height="30" uuid="88b39145-ac5d-4aff-a1b3-d5a3ccc78821"/>
+				<textFieldExpression><![CDATA[$F{height}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="204" y="186" width="44" height="30" uuid="329c2e56-ba52-419a-8579-eb03b869b87a"/>
+				<textFieldExpression><![CDATA[$F{weight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="263" y="187" width="100" height="30" uuid="6b5bef8f-a253-48e5-8e8d-52034fbd35f0"/>
+				<textFieldExpression><![CDATA[$F{volunteerRace}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="385" y="188" width="76" height="26" uuid="225265be-8cb9-4d08-aa97-27baad4f05b6"/>
+				<textFieldExpression><![CDATA[$F{dietStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="190" width="48" height="25" uuid="6d4b4ef4-7726-4d4c-a73e-989f6d1a1083"/>
+				<textFieldExpression><![CDATA[$F{volunteerBmi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="241" width="118" height="18" uuid="f4278de1-a459-4a54-b0f7-22de03df0219"/>
+				<textFieldExpression><![CDATA[$F{lastParticipationDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="269" width="118" height="30" uuid="93b5aa1f-218d-49a3-bf60-46d2f57b1c80"/>
+				<textFieldExpression><![CDATA[$F{historyOfBloodDonationDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="305" width="118" height="30" uuid="2b3c54f5-9a6b-440b-b25b-95c772a2ab11"/>
+				<textFieldExpression><![CDATA[$F{noOfDaysCompletedFromLastPartcipation}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="342" width="118" height="18" uuid="ef05ee0f-e456-449b-9e51-a2323ae93bce"/>
+				<textFieldExpression><![CDATA[$F{proceedForScreening}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="257" y="387" width="100" height="13" uuid="b4ff61e3-b10f-4f56-b368-4bd3dae8c77d"/>
+				<textFieldExpression><![CDATA[$F{recordedBy}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="71" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="24" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="13" splitType="Stretch"/>
+	</summary>
+</jasperReport>

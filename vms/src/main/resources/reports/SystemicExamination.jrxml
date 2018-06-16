@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Form 2" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="504d3128-c421-430a-bae6-9c259fe4eecf">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="cardiovascularSystemStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[cardiovascularSystemStatus]]></fieldDescription>
+	</field>
+	<field name="abdomenComments" class="java.lang.String">
+		<fieldDescription><![CDATA[abdomenComments]]></fieldDescription>
+	</field>
+	<field name="abdomenStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[abdomenStatus]]></fieldDescription>
+	</field>
+	<field name="examinationEndTime" class="java.lang.String">
+		<fieldDescription><![CDATA[examinationEndTime]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="centralNervousSystemStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[centralNervousSystemStatus]]></fieldDescription>
+	</field>
+	<field name="updatedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[updatedBy]]></fieldDescription>
+	</field>
+	<field name="centralNervousSystemComments" class="java.lang.String">
+		<fieldDescription><![CDATA[centralNervousSystemComments]]></fieldDescription>
+	</field>
+	<field name="created" class="java.util.Date">
+		<fieldDescription><![CDATA[created]]></fieldDescription>
+	</field>
+	<field name="volunteerRegNum" class="java.lang.String">
+		<fieldDescription><![CDATA[volunteerRegNum]]></fieldDescription>
+	</field>
+	<field name="center" class="com.aizant.vms.model.StudyCenter">
+		<fieldDescription><![CDATA[center]]></fieldDescription>
+	</field>
+	<field name="respiratorySystemComments" class="java.lang.String">
+		<fieldDescription><![CDATA[respiratorySystemComments]]></fieldDescription>
+	</field>
+	<field name="respiratorySystemStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[respiratorySystemStatus]]></fieldDescription>
+	</field>
+	<field name="reviewedBy" class="java.lang.Long">
+		<fieldDescription><![CDATA[reviewedBy]]></fieldDescription>
+	</field>
+	<field name="commentsOnPhysicalExamination" class="java.lang.String">
+		<fieldDescription><![CDATA[commentsOnPhysicalExamination]]></fieldDescription>
+	</field>
+	<field name="recordedBy" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedBy]]></fieldDescription>
+	</field>
+	<field name="reviewedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[reviewedOn]]></fieldDescription>
+	</field>
+	<field name="createdBy" class="java.lang.String">
+		<fieldDescription><![CDATA[createdBy]]></fieldDescription>
+	</field>
+	<field name="reviewedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[reviewedOnDate]]></fieldDescription>
+	</field>
+	<field name="cardiovascularSystemComments" class="java.lang.String">
+		<fieldDescription><![CDATA[cardiovascularSystemComments]]></fieldDescription>
+	</field>
+	<field name="recordedOnDate" class="java.lang.String">
+		<fieldDescription><![CDATA[recordedOnDate]]></fieldDescription>
+	</field>
+	<field name="recordedOn" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[recordedOn]]></fieldDescription>
+	</field>
+	<field name="updated" class="java.util.Date">
+		<fieldDescription><![CDATA[updated]]></fieldDescription>
+	</field>
+	<field name="examinationEndDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[examinationEndDate]]></fieldDescription>
+	</field>
+	<field name="overallComments" class="java.lang.String">
+		<fieldDescription><![CDATA[overallComments]]></fieldDescription>
+	</field>
+	<field name="formNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[formNumber]]></fieldDescription>
+	</field>
+	<field name="sopNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[sopNumber]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="127">
+			<staticText>
+				<reportElement x="0" y="30" width="539" height="30" uuid="2899b70a-4b4a-4d7e-b745-1840f21f2c22"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[MEDICAL SCREENING RECORD FOR VOLUNTEERS]]></text>
+			</staticText>
+			<image>
+				<reportElement x="422" y="0" width="117" height="30" uuid="421a95f9-3b76-463a-9de1-b86e2eb48691"/>
+				<imageExpression><![CDATA["images/AIZlogo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement key="" x="0" y="0" width="422" height="30" uuid="b5356408-813d-4c07-b161-91d202ce43d8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="60" width="189" height="25" uuid="075080cd-514b-4fc1-a755-5a3b70a2a920"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Form No.: " + $F{formNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="60" width="149" height="25" uuid="bc84a12d-0250-40b3-b631-4f5b9249f0d7"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reference SOP No. : " + $F{sopNumber}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="85" width="189" height="25" uuid="80775711-0f72-4555-ad50-06a22c5ff9e8"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="85" width="189" height="25" uuid="106909b7-158a-46d8-9b2c-bc87c69346c3"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reg. No. : " + $F{volunteerRegNum}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="126" width="539" height="1" uuid="cb21a576-0c9e-495d-b68f-4ee99e45e482"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="110" width="539" height="16" uuid="98ef1be5-5cbf-40c3-9621-3b6cb984b5a2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+		<band height="437" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="25" width="539" height="330" uuid="d33f323c-6aea-4196-a912-a1de34cf91d4"/>
+			</rectangle>
+			<line>
+				<reportElement x="397" y="25" width="1" height="209" uuid="d0a735b8-abe9-4c90-b2c3-df9fea456b79"/>
+			</line>
+			<line>
+				<reportElement x="0" y="50" width="539" height="1" uuid="cddd7bf4-28bd-453f-8940-ff6773bb12d4"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="91" width="539" height="1" uuid="562f54da-b080-43ab-b8fa-a3942f3269d1"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="25" width="299" height="25" uuid="7bfbb747-ce47-47a8-99d7-0aedcaff0556"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Systemic signs and symptoms]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="51" width="141" height="20" uuid="1eb8bc96-fccf-4210-8c7d-71fae10d41c7"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Cardiovascular system :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="25" width="97" height="25" uuid="7c961e06-27b7-4a92-8e2f-1796dd4103e0"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Status]]></text>
+			</staticText>
+			<line>
+				<reportElement x="299" y="25" width="1" height="209" uuid="52eb71ae-efdb-4a3b-9938-fc565576271b"/>
+			</line>
+			<line>
+				<reportElement x="0" y="183" width="539" height="1" uuid="c8a5d44a-450d-4084-98be-60eeaf2eac14"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="234" width="539" height="1" uuid="2dafaca0-dedf-43b6-bf04-c79ba9ddc106"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="0" y="142" width="539" height="1" uuid="42bd6412-7c69-4041-a3ea-1b97a9813e05"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="235" width="539" height="25" uuid="1b900423-135d-46d1-b9cd-448fe0142e9e"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Overall comments:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="398" y="25" width="141" height="25" uuid="008a6252-38ef-43d0-8a28-9335cae0cf67"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comments]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="539" height="25" uuid="4028ae39-6e94-4614-a754-d821245ab676"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[b. Systemic Examination :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="51" width="158" height="20" uuid="491cd1fb-2953-4478-8f8d-5362accc311c"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Pulse, BP, JVP, Heart sounds,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="71" width="299" height="20" uuid="5916541f-c76a-45a2-9ae8-26020da70e07"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Murmurs.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="92" width="171" height="20" uuid="7e243084-f48e-4351-b84a-4aeb2bf16276"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Shape of chest, Movement of chest,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="92" width="128" height="20" uuid="54b58ea3-dc68-4732-954e-829835dc8437"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Respiratory System :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="143" width="70" height="20" uuid="3ad143af-4c63-4787-9173-1d6e4a45b8be"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Abdomen :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="143" width="229" height="20" uuid="be56ca78-9cc7-4d36-8aec-01a1dab4981a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Shape, Movements, Scars, Organomegaly,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="184" width="150" height="20" uuid="36d6240d-8518-4ef5-9076-be29381ebcbf"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Central nervous System :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="184" width="149" height="20" uuid="26b24a5f-3a69-4dff-b996-c34594e70ebf"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Consciousness, Cranial nerves,]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="296" width="539" height="1" uuid="aa133a8e-3dd0-41fd-947c-adfcad9bc08d"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="112" width="299" height="30" uuid="b7b58693-8c0d-4ab3-a63a-db31eec2018a"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[respiratory rate & Rhythm, Trachea, Breath sounds & Adventitious sounds.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="163" width="299" height="20" uuid="d2c0b23d-3cf9-4290-a3d8-23b21b478b4a"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Tenderness, Bowel sounds.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="204" width="299" height="30" uuid="49f30635-103d-48aa-b1d9-2c45fd54f00f"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Motor system (Bulk, Tone, Power, co-ordination, gait) and Sensory system.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="297" width="539" height="25" uuid="428b2824-cc9f-4c6a-a231-4c04404c38bb"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Comments on physical examination]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="215" y="371" width="324" height="25" uuid="74cce0c9-345c-4ba4-8068-f267bc923adc"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="215" y="371" width="142" height="25" uuid="30f3290d-34fd-461c-958f-bcfe42b7ccbe"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Examination end time]]></text>
+			</staticText>
+			<line>
+				<reportElement x="357" y="371" width="1" height="25" uuid="eba50a2a-f488-4185-96f4-931b5dba6790"/>
+			</line>
+			<rectangle>
+				<reportElement x="0" y="412" width="539" height="25" uuid="816cb608-5437-4ca9-9e21-6ee269b03595"/>
+			</rectangle>
+			<line>
+				<reportElement x="202" y="412" width="1" height="25" uuid="db091059-f466-4533-970c-c3deac25732c"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="412" width="202" height="25" uuid="8a8f51ae-7292-45bc-b16c-1113a2efb718"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Physician (Sign & date)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="300" y="51" width="97" height="40" uuid="d02ed10f-5483-49dd-b507-5698aa84ee67"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cardiovascularSystemStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="143" width="141" height="40" uuid="2e056307-4597-4f1b-ac9b-530073c9e01c"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{abdomenComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="143" width="97" height="40" uuid="b234e55d-fd3b-4a1a-b03e-9f756b92ef07"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{abdomenStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="184" width="97" height="50" uuid="77873cd2-596e-4513-964d-249e081fbcc3"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{centralNervousSystemStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="184" width="141" height="50" uuid="87dc3034-5773-4e6f-8740-89b2ba379dad"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{centralNervousSystemComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="92" width="141" height="50" uuid="d2365cfc-257d-43a0-829b-74b71ea4ac91"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respiratorySystemComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="92" width="97" height="50" uuid="94255ce1-4912-444b-938c-a432076d3238"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{respiratorySystemStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="322" width="539" height="33" uuid="c04491bc-23c9-42f0-acef-76ce42faea1d"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{commentsOnPhysicalExamination}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="51" width="141" height="40" uuid="ea56449f-76c4-45d8-bbf0-ada7ce8ff6a1"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cardiovascularSystemComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="260" width="539" height="36" uuid="52050df3-a3ec-4976-a6c7-dd9b92842187"/>
+				<box topPadding="2" leftPadding="4" bottomPadding="2" rightPadding="4"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{overallComments}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="371" width="181" height="25" uuid="73fdc66e-a7e5-43cb-a5c2-b1d13672c7e0"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{examinationEndTime}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="203" y="412" width="336" height="25" uuid="7bad3013-c99f-4257-93f5-c55466180736"/>
+				<box leftPadding="4" rightPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{recordedBy}==null)?"NA":$F{recordedBy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="355" width="539" height="16" uuid="69401e1c-4bbd-4d8b-93ca-71185183365e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="396" width="539" height="16" uuid="772f0651-ffc1-44c5-8cb4-1af88cbea965"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
